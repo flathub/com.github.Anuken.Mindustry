@@ -26,7 +26,22 @@
  <url type="help">https://mindustrygame.github.io/wiki/</url>
  <url type="contact">https://discord.gg/mindustry</url>
  <update_contact>tobiasmue@gnome.org</update_contact>
- <releases>
+    <release version="v121.1" date="2020-12-09">
+        <description>
+            <p>
+              <ul>
+                <li>Slightly increased Lancer build cost</li>
+                <li>Double-tapping now enters a campaign map (Contributed by @joshuaptfan)</li>
+                <li>Minor logic memory optimizations - block/sensor constants are no longer stored in every processor</li>
+                <li>Doubled surge smelter item capacity</li>
+                <li>Made Fungal Pass slightly easier</li>
+                <li>Fixed some achievements not working [Steam]</li>
+                <li>Fixed some rare crashes</li>
+                <li>Fixed unit spawn shockwave appearing too late</li>
+              </ul>
+            </p>
+         </description>
+    </release>
     <release version="v121" date="2020-12-06">
         <description>
             <p>
