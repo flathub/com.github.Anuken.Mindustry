@@ -26,6 +26,7 @@
  <url type="help">https://mindustrygame.github.io/wiki/</url>
  <url type="contact">https://discord.gg/mindustry</url>
  <update_contact>tobiasmue@gnome.org</update_contact>
+ <releases>
     <release version="v121.1" date="2020-12-09">
         <description>
             <p>
