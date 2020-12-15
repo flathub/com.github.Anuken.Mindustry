@@ -27,6 +27,16 @@
  <url type="contact">https://discord.gg/mindustry</url>
  <update_contact>tobiasmue@gnome.org</update_contact>
  <releases>
+    <release version="v121.3" date="2020-12-14">
+        <description>
+            <p>
+              <ul>
+              	<li>Decreased junction item capacity - this may cause slight desync on servers running previous 121 versions, servers are advised to update</li>
+              	<li>Many various small bugfixes</li>
+              </ul>
+            </p>
+         </description>
+    </release>
     <release version="v121.1" date="2020-12-09">
         <description>
             <p>
