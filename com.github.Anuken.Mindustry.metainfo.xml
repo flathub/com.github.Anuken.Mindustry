@@ -27,6 +27,16 @@
  <url type="contact">https://discord.gg/mindustry</url>
  <update_contact>tobiasmue@gnome.org</update_contact>
  <releases>
+    <release version="v121.4" date="2020-12-15">
+        <description>
+            <p>
+              <ul>
+                <li>Fixed flying unit AI</li>
+                <li>Made conduits/conveyors upgrades follow paths (Contributed by @Slava0135)</li>
+              </ul>
+            </p>
+        </description>
+    </release>
     <release version="v121.3" date="2020-12-14">
         <description>
             <p>
