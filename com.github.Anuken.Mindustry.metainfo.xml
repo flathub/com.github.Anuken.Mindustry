@@ -27,70 +27,30 @@
  <url type="contact">https://discord.gg/mindustry</url>
  <update_contact>tobiasmue@gnome.org</update_contact>
  <releases>
-    <release version="v121.4" date="2020-12-15">
-        <description>
-            <p>
-              <ul>
-                <li>Fixed flying unit AI</li>
-                <li>Made conduits/conveyors upgrades follow paths (Contributed by @Slava0135)</li>
-              </ul>
-            </p>
-        </description>
-    </release>
-    <release version="v121.3" date="2020-12-14">
-        <description>
-            <p>
-              <ul>
-              	<li>Decreased junction item capacity - this may cause slight desync on servers running previous 121 versions, servers are advised to update</li>
-              	<li>Many various small bugfixes</li>
-              </ul>
-            </p>
-         </description>
-    </release>
-    <release version="v121.1" date="2020-12-09">
-        <description>
-            <p>
-              <ul>
-                <li>Slightly increased Lancer build cost</li>
-                <li>Double-tapping now enters a campaign map (Contributed by @joshuaptfan)</li>
-                <li>Minor logic memory optimizations - block/sensor constants are no longer stored in every processor</li>
-                <li>Doubled surge smelter item capacity</li>
-                <li>Made Fungal Pass slightly easier</li>
-                <li>Fixed some achievements not working [Steam]</li>
-                <li>Fixed some rare crashes</li>
-                <li>Fixed unit spawn shockwave appearing too late</li>
-              </ul>
-            </p>
-         </description>
-    </release>
-    <release version="v121" date="2020-12-06">
-        <description>
-            <p>
-	            <ul>
-		            <li>Fixed rebuilding a core near vault causing resources to drop to 1K</li>
-		            <li>Fixed captured sectors getting locked</li>
-	            </ul>
-	            Campaign multiplayer changes:
-	            <ul>
-		            <li>New host research is now carried over to clients</li>
-		            <li>Clients can now use their research even if the host doesn't have it</li>
-		            <li>Clients can now research new tech in multiplayer</li>
-		            <li>Clients will now receive a copy of resources produced in the current sector, distributed across their sectors</li>
-		            <li>Added a hint that explains this information</li>
-	            </ul>
-            </p>
-        </description>
-    </release>
-    <release version="v104.6" date="2020-03-27" />
-    <release version="v104.1" date="2020-02-12">
-        <description>
-            <p>
-                <ul>
-                    <li>Fixed some issues with UUIDs being generated improperly</li>
-                </ul>
-            </p>
-        </description>
-    </release>
+   <release version="v122" date="2020-12-23">
+     <description>
+       <p>
+         <ul>
+           <li>Fixed Quad AI</li>
+           <li>Fixed crash in conveyor upgrade pathing</li>
+           <li>Fixed other various crashes</li>
+           <li>Made payload pickups prioritize units in blocks instead of the blocks themselves</li>
+           <li>Increased foreshadow coolant effectiveness, but slightly decreased rotation speed</li>
+           <li>Improved space skybox scaling</li>
+           <li>Added building damage stats to bullets</li>
+           <li>Added WIP mod browser for GitHub mods</li>
+           <li>Added preview of currently queued block for other units in certain situations</li>
+           <li>Added automatic bridge spacing when using lines</li>
+           <li>Added bridge link preview</li>
+           <li>Added rule for persistent ("always") weather</li>
+           <li>Better scrap wall textures and rotate-able thruster (Contributed by @Voz-Duh)</li>
+           <li>Made Plastanium conveyor unloadable</li>
+           <li>Made building pause status sync in multiplayer</li>
+           <li>Slight pulsar damage nerf</li>
+         </ul>
+       </p>
+     </description>
+   </release>
  </releases>
  <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">intense</content_attribute>
