@@ -1,0 +1,1654 @@
+[
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar",
+		"sha256": "c2b39275f8e951bc74750080a1266cdabc39399bc5e13d642bf2d346449df7f3",
+		"dest": "maven-local/asm/asm/3.3.1",
+		"dest-filename": "asm-3.3.1.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom",
+		"sha256": "6e9dcc0313935ff11e7bea368811e48066ae3177a72ed69bceb3792096f7c2bb",
+		"dest": "maven-local/asm/asm/3.3.1",
+		"dest-filename": "asm-3.3.1.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom",
+		"sha256": "2c62f613e86db57b58fe3d5f443dccf0a51f09d1c9c2cb39776afde06d0f7ff0",
+		"dest": "maven-local/asm/asm-parent/3.3.1",
+		"dest-filename": "asm-parent-3.3.1.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/cglib/cglib/2.2.2/cglib-2.2.2.pom",
+		"sha256": "9d6073c9e0d449b23b88f81976e395990878f771849a88a27bff1b2eeddcbad1",
+		"dest": "maven-local/cglib/cglib/2.2.2",
+		"dest-filename": "cglib-2.2.2.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/cglib/cglib/2.2.2/cglib-2.2.2.jar",
+		"sha256": "a93e4485d274277177480c4afe6ddd8355cda1cacfe356c134e25d65193935fd",
+		"dest": "maven-local/cglib/cglib/2.2.2",
+		"dest-filename": "cglib-2.2.2.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/mobidevelop/robovm/robovm-gradle-plugin/2.3.14/robovm-gradle-plugin-2.3.14.pom",
+		"sha256": "84ee7a5cf24d5025a721b61dd9227b8744bbb3a69ba12404a9b8a74baf1c1158",
+		"dest": "maven-local/com/mobidevelop/robovm/robovm-gradle-plugin/2.3.14",
+		"dest-filename": "robovm-gradle-plugin-2.3.14.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/mobidevelop/robovm/robovm-gradle-plugin/2.3.14/robovm-gradle-plugin-2.3.14.jar",
+		"sha256": "bcf424e03be89433a0224280f12c6dc97d87fbf64ef17645c3c6e207f0812200",
+		"dest": "maven-local/com/mobidevelop/robovm/robovm-gradle-plugin/2.3.14",
+		"dest-filename": "robovm-gradle-plugin-2.3.14.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/mobidevelop/robovm/robovm-dist-compiler/2.3.14/robovm-dist-compiler-2.3.14.pom",
+		"sha256": "4d8aaca282543dfa0afd6b9c9b621112be93969d362893d05106f0fd5ac4f918",
+		"dest": "maven-local/com/mobidevelop/robovm/robovm-dist-compiler/2.3.14",
+		"dest-filename": "robovm-dist-compiler-2.3.14.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/mobidevelop/robovm/robovm-dist-compiler/2.3.14/robovm-dist-compiler-2.3.14.jar",
+		"sha256": "afe99f894b57fb6fcec839e97a0bc7bab5d0edc631f4e1489c59e0dc75742bb5",
+		"dest": "maven-local/com/mobidevelop/robovm/robovm-dist-compiler/2.3.14",
+		"dest-filename": "robovm-dist-compiler-2.3.14.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/mobidevelop/robovm/robovm-dist-parent/2.3.14/robovm-dist-parent-2.3.14.pom",
+		"sha256": "997a8a7a4d964cca8294ad0eef1984fd9ac9eea2ebbc06ef6ee6028e2ba67a55",
+		"dest": "maven-local/com/mobidevelop/robovm/robovm-dist-parent/2.3.14",
+		"dest-filename": "robovm-dist-parent-2.3.14.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/mobidevelop/robovm/robovm-parent/2.3.14/robovm-parent-2.3.14.pom",
+		"sha256": "d1fc96d42dc5854f1643bd5adadfef96305ec47e2a9f92ca8ce89d5e4b5bab3f",
+		"dest": "maven-local/com/mobidevelop/robovm/robovm-parent/2.3.14",
+		"dest-filename": "robovm-parent-2.3.14.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/guava/guava/29.0-jre/guava-29.0-jre.pom",
+		"sha256": "9027e934098903d287f1ba61c8b65f01d1d1e1da7a6fbcc04bf3de0544014426",
+		"dest": "maven-local/com/google/guava/guava/29.0-jre",
+		"dest-filename": "guava-29.0-jre.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar",
+		"sha256": "b22c5fb66d61e7b9522531d04b2f915b5158e80aa0b40ee7282c8bfb07b0da25",
+		"dest": "maven-local/com/google/guava/guava/29.0-jre",
+		"dest-filename": "guava-29.0-jre.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/guava/guava-parent/29.0-jre/guava-parent-29.0-jre.pom",
+		"sha256": "6a57f9e02f78dfa2f4bda3416065a64426ae1b66de228cf6e196e2e1912553bf",
+		"dest": "maven-local/com/google/guava/guava-parent/29.0-jre",
+		"dest-filename": "guava-parent-29.0-jre.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom",
+		"sha256": "f8698ab46ca996ce889c1afc8ca4f25eb8ac6b034dc898d4583742360016cc04",
+		"dest": "maven-local/com/google/guava/guava-parent/26.0-android",
+		"dest-filename": "guava-parent-26.0-android.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom",
+		"sha256": "e96042ce78fecba0da2be964522947c87b40a291b5fd3cd672a434924103c4b9",
+		"dest": "maven-local/com/google/guava/failureaccess/1.0.1",
+		"dest-filename": "failureaccess-1.0.1.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+		"sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26",
+		"dest": "maven-local/com/google/guava/failureaccess/1.0.1",
+		"dest-filename": "failureaccess-1.0.1.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom",
+		"sha256": "18d4b1db26153d4e55079ce1f76bb1fe05cdb862ef9954a88cbcc4ff38b8679b",
+		"dest": "maven-local/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava",
+		"dest-filename": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+		"sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99",
+		"dest": "maven-local/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava",
+		"dest-filename": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+		"sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7",
+		"dest": "maven-local/com/google/code/findbugs/jsr305/3.0.2",
+		"dest-filename": "jsr305-3.0.2.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom",
+		"sha256": "19889dbdf1b254b2601a5ee645b8147a974644882297684c798afe5d63d78dfe",
+		"dest": "maven-local/com/google/code/findbugs/jsr305/3.0.2",
+		"dest-filename": "jsr305-3.0.2.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.6/gson-2.8.6.pom",
+		"sha256": "2174415a647332d30fda04bd1cfc708a3ecc84eaf7517f596188d8244e103911",
+		"dest": "maven-local/com/google/code/gson/gson/2.8.6",
+		"dest-filename": "gson-2.8.6.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar",
+		"sha256": "c8fb4839054d280b3033f800d1f5a97de2f028eb8ba2eb458ad287e536f3f25f",
+		"dest": "maven-local/com/google/code/gson/gson/2.8.6",
+		"dest-filename": "gson-2.8.6.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.6/gson-parent-2.8.6.pom",
+		"sha256": "3736463859ec19267295e894940ae82a8f684413031122fe35ce7cff7e30a774",
+		"dest": "maven-local/com/google/code/gson/gson-parent/2.8.6",
+		"dest-filename": "gson-parent-2.8.6.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.pom",
+		"sha256": "1326738a4b4f7ccacf607b866a11fb85193ef60f6a59461187ce7265f9be5bed",
+		"dest": "maven-local/com/google/errorprone/error_prone_annotations/2.3.4",
+		"dest-filename": "error_prone_annotations-2.3.4.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar",
+		"sha256": "baf7d6ea97ce606c53e11b6854ba5f2ce7ef5c24dddf0afa18d1260bd25b002c",
+		"dest": "maven-local/com/google/errorprone/error_prone_annotations/2.3.4",
+		"dest-filename": "error_prone_annotations-2.3.4.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_parent/2.3.4/error_prone_parent-2.3.4.pom",
+		"sha256": "40495b437a60d2398f0fdfc054b89d9c394a82347a274a0721c2e950a4302186",
+		"dest": "maven-local/com/google/errorprone/error_prone_parent/2.3.4",
+		"dest-filename": "error_prone_parent-2.3.4.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom",
+		"sha256": "5faca824ba115bee458730337dfdb2fcea46ba2fd774d4304edbf30fa6a3f055",
+		"dest": "maven-local/com/google/j2objc/j2objc-annotations/1.3",
+		"dest-filename": "j2objc-annotations-1.3.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar",
+		"sha256": "21af30c92267bd6122c0e0b4d20cccb6641a37eaf956c6540ec471d584e64a7b",
+		"dest": "maven-local/com/google/j2objc/j2objc-annotations/1.3",
+		"dest-filename": "j2objc-annotations-1.3.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/github/gundy/semver4j/0.16.4/semver4j-0.16.4.pom",
+		"sha256": "32001db2443b339dd21f5b79ff29d1ade722d1ba080c214bde819f0f72d1604d",
+		"dest": "maven-local/com/github/gundy/semver4j/0.16.4",
+		"dest-filename": "semver4j-0.16.4.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/github/gundy/semver4j/0.16.4/semver4j-0.16.4-nodeps.jar",
+		"sha256": "3f59eca516374ccd4fd3551625bf50f8a4b191f700508f7ce4866460a6128af0",
+		"dest": "maven-local/com/github/gundy/semver4j/0.16.4",
+		"dest-filename": "semver4j-0.16.4-nodeps.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/backend-headless/916c5a77/backend-headless-916c5a77.jar",
+		"sha256": "5d733e9ad99e67e211cc3e40abfef25006cba33e259896e0a41c7f4f75f9bada",
+		"dest": "maven-local/com/github/Anuken/Arc/backend-headless/916c5a77",
+		"dest-filename": "backend-headless-916c5a77.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/backend-headless/916c5a77/backend-headless-916c5a77.pom",
+		"sha256": "cb9d0569cf28e5ec2ed3eea993d22ad5bdeb929bc605d4ac2ae18c1f8d36b1bb",
+		"dest": "maven-local/com/github/Anuken/Arc/backend-headless/916c5a77",
+		"dest-filename": "backend-headless-916c5a77.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/packer/916c5a77/packer-916c5a77.pom",
+		"sha256": "7bd5001372617171f155aa468ee5f746e34825c16e74141165492dbf7eb8c7e8",
+		"dest": "maven-local/com/github/Anuken/Arc/packer/916c5a77",
+		"dest-filename": "packer-916c5a77.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/packer/916c5a77/packer-916c5a77.module",
+		"sha256": "544c8f46fe92c2bf625243f90a19c30f6b76d1c905371a922ba6ad787db11205",
+		"dest": "maven-local/com/github/Anuken/Arc/packer/916c5a77",
+		"dest-filename": "packer-916c5a77.module"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/packer/916c5a77/packer-916c5a77.jar",
+		"sha256": "4f0c134ec52f37bf0adb4d40dd53db615c6bd4783516139031dee942a1a30d12",
+		"dest": "maven-local/com/github/Anuken/Arc/packer/916c5a77",
+		"dest-filename": "packer-916c5a77.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/arc-core/916c5a77/arc-core-916c5a77.pom",
+		"sha256": "5b1c359faa5183c4cd58617e07d1c77cf72257606194e12ec201189b57f8797a",
+		"dest": "maven-local/com/github/Anuken/Arc/arc-core/916c5a77",
+		"dest-filename": "arc-core-916c5a77.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/arc-core/916c5a77/arc-core-916c5a77.module",
+		"sha256": "8add9603cedc4a963665e1e33b28a3fd0d799e293747f18dd606fd1237df9078",
+		"dest": "maven-local/com/github/Anuken/Arc/arc-core/916c5a77",
+		"dest-filename": "arc-core-916c5a77.module"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/arc-core/916c5a77/arc-core-916c5a77.jar",
+		"sha256": "85bbe9ba097ae9c8719a3a168d9c49c1b48cccbdc28a7c94935bda5ab852d8d3",
+		"dest": "maven-local/com/github/Anuken/Arc/arc-core/916c5a77",
+		"dest-filename": "arc-core-916c5a77.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/natives-freetype-desktop/916c5a77/natives-freetype-desktop-916c5a77.pom",
+		"sha256": "e0c3c071f105c9572dd9122fa6be7ce3874ee784611f5f992b825a37c32f30d5",
+		"dest": "maven-local/com/github/Anuken/Arc/natives-freetype-desktop/916c5a77",
+		"dest-filename": "natives-freetype-desktop-916c5a77.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/natives-freetype-desktop/916c5a77/natives-freetype-desktop-916c5a77.module",
+		"sha256": "062fe9dfbbfa701031dee95f1b2167e31da19c10d60b9740590ffec393deb8f6",
+		"dest": "maven-local/com/github/Anuken/Arc/natives-freetype-desktop/916c5a77",
+		"dest-filename": "natives-freetype-desktop-916c5a77.module"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/natives-freetype-desktop/916c5a77/natives-freetype-desktop-916c5a77.jar",
+		"sha256": "0ae328b4a25123746af4f4cae5a2e8501793040eff8ffb40d72e320a963a546a",
+		"dest": "maven-local/com/github/Anuken/Arc/natives-freetype-desktop/916c5a77",
+		"dest-filename": "natives-freetype-desktop-916c5a77.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/backend-sdl/916c5a77/backend-sdl-916c5a77.pom",
+		"sha256": "4cc449724b8e10e3b73a18cbf8d500cf3442aa55148c78ddf2ad4b5879f779ae",
+		"dest": "maven-local/com/github/Anuken/Arc/backend-sdl/916c5a77",
+		"dest-filename": "backend-sdl-916c5a77.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/backend-sdl/916c5a77/backend-sdl-916c5a77.module",
+		"sha256": "01e1987d61a543a7fa6ae95ba9c0aafb327028acc86ae98b5e4c5c875d49153b",
+		"dest": "maven-local/com/github/Anuken/Arc/backend-sdl/916c5a77",
+		"dest-filename": "backend-sdl-916c5a77.module"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/backend-sdl/916c5a77/backend-sdl-916c5a77.jar",
+		"sha256": "1ece930fb35c7ac9dc5c84734e26ecfdf84c5fbb79d0e737eab47cf23e02494d",
+		"dest": "maven-local/com/github/Anuken/Arc/backend-sdl/916c5a77",
+		"dest-filename": "backend-sdl-916c5a77.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/natives-desktop/916c5a77/natives-desktop-916c5a77.pom",
+		"sha256": "0d0f4b594f54ae1208c7900bd570f57cc09c394f26586554f3401e662ccdfedf",
+		"dest": "maven-local/com/github/Anuken/Arc/natives-desktop/916c5a77",
+		"dest-filename": "natives-desktop-916c5a77.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/natives-desktop/916c5a77/natives-desktop-916c5a77.module",
+		"sha256": "ea4954ea0b52ede60f13230cabd28630af1408ad30ca3d13ac346bb84113296b",
+		"dest": "maven-local/com/github/Anuken/Arc/natives-desktop/916c5a77",
+		"dest-filename": "natives-desktop-916c5a77.module"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/natives-desktop/916c5a77/natives-desktop-916c5a77.jar",
+		"sha256": "01cb888ceaa88d0a0463a5f0ba3dcf7a22be4a69db186f2f734f8087d1bc3287",
+		"dest": "maven-local/com/github/Anuken/Arc/natives-desktop/916c5a77",
+		"dest-filename": "natives-desktop-916c5a77.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/discord/916c5a77/discord-916c5a77.pom",
+		"sha256": "376346a3a09082d2d710e70722c5a50988804a631c23e62a77f29965bcba174a",
+		"dest": "maven-local/com/github/Anuken/Arc/discord/916c5a77",
+		"dest-filename": "discord-916c5a77.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/discord/916c5a77/discord-916c5a77.module",
+		"sha256": "d458da9e7a5bbd5999128cec5a233e6d9bedeb34dfe1fc634438bba0a9ed1b43",
+		"dest": "maven-local/com/github/Anuken/Arc/discord/916c5a77",
+		"dest-filename": "discord-916c5a77.module"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/discord/916c5a77/discord-916c5a77.jar",
+		"sha256": "37064171542f078eec84497f43c6e5be73466eca466497c0d680a3665068bdb7",
+		"dest": "maven-local/com/github/Anuken/Arc/discord/916c5a77",
+		"dest-filename": "discord-916c5a77.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/flabel/916c5a77/flabel-916c5a77.pom",
+		"sha256": "1e68716fb7c3b78db6c53de4fe02b7e7c1d5b18b4d3b927e04e6fb66376cb266",
+		"dest": "maven-local/com/github/Anuken/Arc/flabel/916c5a77",
+		"dest-filename": "flabel-916c5a77.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/flabel/916c5a77/flabel-916c5a77.module",
+		"sha256": "8298ad8ba81dcd0a49557447d9e8078c54c1eef58be77890734465941075fc9f",
+		"dest": "maven-local/com/github/Anuken/Arc/flabel/916c5a77",
+		"dest-filename": "flabel-916c5a77.module"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/flabel/916c5a77/flabel-916c5a77.jar",
+		"sha256": "317b32963bf09e793268b32d92df7b97c0c62ee61394dcbbac87627cfdc87477",
+		"dest": "maven-local/com/github/Anuken/Arc/flabel/916c5a77",
+		"dest-filename": "flabel-916c5a77.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/g3d/916c5a77/g3d-916c5a77.pom",
+		"sha256": "86f1cdece753e567e573f050d221f85fbf6419a47c34c99bda5b642ee10d1099",
+		"dest": "maven-local/com/github/Anuken/Arc/g3d/916c5a77",
+		"dest-filename": "g3d-916c5a77.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/g3d/916c5a77/g3d-916c5a77.module",
+		"sha256": "8bc300807b9b791b389ddeb46416be2c2c9632f54453389f3e7576ce080dd031",
+		"dest": "maven-local/com/github/Anuken/Arc/g3d/916c5a77",
+		"dest-filename": "g3d-916c5a77.module"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/g3d/916c5a77/g3d-916c5a77.jar",
+		"sha256": "7c4ffd2b229c4d79e94ccb13b4d4c1bedc58fdafb32adc5bef627820ae2e3e3d",
+		"dest": "maven-local/com/github/Anuken/Arc/g3d/916c5a77",
+		"dest-filename": "g3d-916c5a77.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/freetype/916c5a77/freetype-916c5a77.pom",
+		"sha256": "10cf665bf11ec200defbf26c7f88c208a1dfc851ae1dae25ad948e2019d93be0",
+		"dest": "maven-local/com/github/Anuken/Arc/freetype/916c5a77",
+		"dest-filename": "freetype-916c5a77.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/freetype/916c5a77/freetype-916c5a77.module",
+		"sha256": "c34982de9ff562144342716c7858b31f5bc5dee090209aebd05f00c30b341aa9",
+		"dest": "maven-local/com/github/Anuken/Arc/freetype/916c5a77",
+		"dest-filename": "freetype-916c5a77.module"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/freetype/916c5a77/freetype-916c5a77.jar",
+		"sha256": "4f17bd607de81bcfa7045b2d8684a459a43bc9043b0c3c2b9460ae44a819410d",
+		"dest": "maven-local/com/github/Anuken/Arc/freetype/916c5a77",
+		"dest-filename": "freetype-916c5a77.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/fx/916c5a77/fx-916c5a77.pom",
+		"sha256": "566080518d50f2d3867b0ba20a049a3ee1e51447da7a24d414690195bef75038",
+		"dest": "maven-local/com/github/Anuken/Arc/fx/916c5a77",
+		"dest-filename": "fx-916c5a77.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/fx/916c5a77/fx-916c5a77.module",
+		"sha256": "6368e4dbcacc09a38baa9f0de9b2502013c572a76daaf838a1ea0a63b2389ea0",
+		"dest": "maven-local/com/github/Anuken/Arc/fx/916c5a77",
+		"dest-filename": "fx-916c5a77.module"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/fx/916c5a77/fx-916c5a77.jar",
+		"sha256": "f7599933c63f4b39c4b200b55d77eb65135867774de6d0e727cf8824e1ae406a",
+		"dest": "maven-local/com/github/Anuken/Arc/fx/916c5a77",
+		"dest-filename": "fx-916c5a77.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/arcnet/916c5a77/arcnet-916c5a77.pom",
+		"sha256": "f43ca126bd942cf8be52c5f1b2ac5b32956ce97c5dfaaf2dbd7c4aab9a575016",
+		"dest": "maven-local/com/github/Anuken/Arc/arcnet/916c5a77",
+		"dest-filename": "arcnet-916c5a77.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/arcnet/916c5a77/arcnet-916c5a77.module",
+		"sha256": "a06ce0ae26f7b1fdc564854a4961f886e3e650a41f0b063793fb7263d2c3b6e2",
+		"dest": "maven-local/com/github/Anuken/Arc/arcnet/916c5a77",
+		"dest-filename": "arcnet-916c5a77.module"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/Arc/arcnet/916c5a77/arcnet-916c5a77.jar",
+		"sha256": "3d6d55fcee0cd9deb10bc523905aee4abcdcc10a4f2529106d59a9de4db9356f",
+		"dest": "maven-local/com/github/Anuken/Arc/arcnet/916c5a77",
+		"dest-filename": "arcnet-916c5a77.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/steamworks4j/0b86023401880bb5e586bc404bedbaae9b1f1c94/steamworks4j-0b86023401880bb5e586bc404bedbaae9b1f1c94.pom",
+		"sha256": "92dbe193cb374f5cecc2b616b97cfe7161d1c8add86e48a40f94affe08dc7f3e",
+		"dest": "maven-local/com/github/Anuken/steamworks4j/0b86023401880bb5e586bc404bedbaae9b1f1c94",
+		"dest-filename": "steamworks4j-0b86023401880bb5e586bc404bedbaae9b1f1c94.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/steamworks4j/0b86023401880bb5e586bc404bedbaae9b1f1c94/steamworks4j-0b86023401880bb5e586bc404bedbaae9b1f1c94.jar",
+		"sha256": "61b68f8428d6b65131c10d5d14d03a26b92201f4185b127455157dacb9e86216",
+		"dest": "maven-local/com/github/Anuken/steamworks4j/0b86023401880bb5e586bc404bedbaae9b1f1c94",
+		"dest-filename": "steamworks4j-0b86023401880bb5e586bc404bedbaae9b1f1c94.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/rhino/3c6bbadf73a904eefcc28b6fd8aa742ac575e878/rhino-3c6bbadf73a904eefcc28b6fd8aa742ac575e878.pom",
+		"sha256": "3903f1ab2f5fa5345e4f3b0923f1a9ce3653cd934080e82aaffa1109537b97fd",
+		"dest": "maven-local/com/github/Anuken/rhino/3c6bbadf73a904eefcc28b6fd8aa742ac575e878",
+		"dest-filename": "rhino-3c6bbadf73a904eefcc28b6fd8aa742ac575e878.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/rhino/3c6bbadf73a904eefcc28b6fd8aa742ac575e878/rhino-3c6bbadf73a904eefcc28b6fd8aa742ac575e878.module",
+		"sha256": "53d0fb53589cfc20008ca0efc5951371b3dc70566e08cefed7f7e890adcdff75",
+		"dest": "maven-local/com/github/Anuken/rhino/3c6bbadf73a904eefcc28b6fd8aa742ac575e878",
+		"dest-filename": "rhino-3c6bbadf73a904eefcc28b6fd8aa742ac575e878.module"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/rhino/3c6bbadf73a904eefcc28b6fd8aa742ac575e878/rhino-3c6bbadf73a904eefcc28b6fd8aa742ac575e878.jar",
+		"sha256": "75e3f534aac099184cc7c4d3aa6b6a8e6a55957505bc0d33389f099008b2293d",
+		"dest": "maven-local/com/github/Anuken/rhino/3c6bbadf73a904eefcc28b6fd8aa742ac575e878",
+		"dest-filename": "rhino-3c6bbadf73a904eefcc28b6fd8aa742ac575e878.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/jabel/0.6.0/jabel-0.6.0.pom",
+		"sha256": "9f8fd53e8bb2e7505a6c74f9eb2df12e14231e3d219f36e4aa53401d8229fb3b",
+		"dest": "maven-local/com/github/Anuken/jabel/0.6.0",
+		"dest-filename": "jabel-0.6.0.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/jabel/0.6.0/jabel-0.6.0.module",
+		"sha256": "d7504e969875d1a1f7a022dc755a07d5813d619b02ad921ea974438fb430cedd",
+		"dest": "maven-local/com/github/Anuken/jabel/0.6.0",
+		"dest-filename": "jabel-0.6.0.module"
+	},
+	{
+		"type": "file",
+		"url": "https://jitpack.io/com/github/Anuken/jabel/0.6.0/jabel-0.6.0.jar",
+		"sha256": "9f622c892cde6d82dc3c3ad3b59b5deaa4596be53a23cb39dbb2a3e97caec74c",
+		"dest": "maven-local/com/github/Anuken/jabel/0.6.0",
+		"dest-filename": "jabel-0.6.0.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/squareup/javapoet/1.12.1/javapoet-1.12.1.pom",
+		"sha256": "a71ac3d8f27cb9ad32c87b5d8959f22d671aeb460c7a355d09f577e4c57e4c5f",
+		"dest": "maven-local/com/squareup/javapoet/1.12.1",
+		"dest-filename": "javapoet-1.12.1.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar",
+		"sha256": "83f0fd4baebec3bf29ee3ad2c024b3065ddef825a5aa29f7dcf5c189f9fa2962",
+		"dest": "maven-local/com/squareup/javapoet/1.12.1",
+		"dest-filename": "javapoet-1.12.1.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom",
+		"sha256": "a06e35d3fff3a6b813d94894ebf3e498f9540c864c5b39ae783907e3a6c72889",
+		"dest": "maven-local/commons-codec/commons-codec/1.6",
+		"dest-filename": "commons-codec-1.6.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar",
+		"sha256": "54b34e941b8e1414bd3e40d736efd3481772dc26db3296f6aa45cec9f6203d86",
+		"dest": "maven-local/commons-codec/commons-codec/1.6",
+		"dest-filename": "commons-codec-1.6.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.pom",
+		"sha256": "4275eba1fc4e5878d33ce4d8dc297342be07c0801be4841fab1f971e2c963e1b",
+		"dest": "maven-local/commons-io/commons-io/2.0.1",
+		"dest-filename": "commons-io-2.0.1.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar",
+		"sha256": "2a3f5a206480863aae9dff03f53c930c3add6912f8785498d59442c7ebb98c5c",
+		"dest": "maven-local/commons-io/commons-io/2.0.1",
+		"dest-filename": "commons-io-2.0.1.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom",
+		"sha256": "d0f2e16d054e8bb97add9ca26525eb2346f692809fcd2a28787da8ceb3c35ee8",
+		"dest": "maven-local/commons-logging/commons-logging/1.1.1",
+		"dest-filename": "commons-logging-1.1.1.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar",
+		"sha256": "ce6f913cad1f0db3aad70186d65c5bc7ffcc9a99e3fe8e0b137312819f7c362f",
+		"dest": "maven-local/commons-logging/commons-logging/1.1.1",
+		"dest-filename": "commons-logging-1.1.1.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/de/undercouch/gradle-download-task/4.1.1/gradle-download-task-4.1.1.pom",
+		"sha256": "85e6607260dbbdb5e85f1988840b0d9ac4be9119dde90a1baca8ea775646415a",
+		"dest": "maven-local/de/undercouch/gradle-download-task/4.1.1",
+		"dest-filename": "gradle-download-task-4.1.1.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/de/undercouch/gradle-download-task/4.1.1/gradle-download-task-4.1.1.jar",
+		"sha256": "eb08b570e408d4646705e70a949614d439ea2b11455f1652ab0330de8954dab9",
+		"dest": "maven-local/de/undercouch/gradle-download-task/4.1.1",
+		"dest-filename": "gradle-download-task-4.1.1.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.6.0/jna-5.6.0.pom",
+		"sha256": "5fe81b0255978f24616d37b10608b79498a5f3073e1d9b2038d8736a831f2608",
+		"dest": "maven-local/net/java/dev/jna/jna/5.6.0",
+		"dest-filename": "jna-5.6.0.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.6.0/jna-5.6.0.jar",
+		"sha256": "5557e235a8aa2f9766d5dc609d67948f2a8832c2d796cea9ef1d6cbe0b3b7eaf",
+		"dest": "maven-local/net/java/dev/jna/jna/5.6.0",
+		"dest-filename": "jna-5.6.0.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.8.0/jna-5.8.0.pom",
+		"sha256": "5e53d8e637f93b83014e2302fb7e63fd7b83ab000a7f794aa340020ffb880d4a",
+		"dest": "maven-local/net/java/dev/jna/jna/5.8.0",
+		"dest-filename": "jna-5.8.0.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar",
+		"sha256": "930273cc1c492f25661ea62413a6da3fd7f6e01bf1c4dcc0817fc8696a7b07ac",
+		"dest": "maven-local/net/java/dev/jna/jna/5.8.0",
+		"dest-filename": "jna-5.8.0.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.11.17/byte-buddy-1.11.17.pom",
+		"sha256": "0ed68c7a76ae2833ed2be0163511b936d8ac836d9b433e99487583be55e6e732",
+		"dest": "maven-local/net/bytebuddy/byte-buddy/1.11.17",
+		"dest-filename": "byte-buddy-1.11.17.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.11.17/byte-buddy-1.11.17.jar",
+		"sha256": "6e4da1937fa0d79d8046f005f7548f7230c1562685487ec95722728f3f910a72",
+		"dest": "maven-local/net/bytebuddy/byte-buddy/1.11.17",
+		"dest-filename": "byte-buddy-1.11.17.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.11.17/byte-buddy-agent-1.11.17.pom",
+		"sha256": "3399ce15db0bb305dcce8c2409512bad4836471d595463619d1a86f9b54277e6",
+		"dest": "maven-local/net/bytebuddy/byte-buddy-agent/1.11.17",
+		"dest-filename": "byte-buddy-agent-1.11.17.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.11.17/byte-buddy-agent-1.11.17.jar",
+		"sha256": "d42d52f19f30f2b911f71f67c6dbf207b11db0f5615d91fbb969a2c917bab9bb",
+		"dest": "maven-local/net/bytebuddy/byte-buddy-agent/1.11.17",
+		"dest-filename": "byte-buddy-agent-1.11.17.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-parent/1.11.17/byte-buddy-parent-1.11.17.pom",
+		"sha256": "34e00b60fa1a9bc1cf8556b266c258dde74c982b693c4b62a445f5b9e407ff4e",
+		"dest": "maven-local/net/bytebuddy/byte-buddy-parent/1.11.17",
+		"dest-filename": "byte-buddy-parent-1.11.17.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/tukaani/xz/1.2/xz-1.2.pom",
+		"sha256": "fb5b4aa323a09f91bee9bf03ff00ca14c49d0830dffb1c448c79e5d51af2a533",
+		"dest": "maven-local/org/tukaani/xz/1.2",
+		"dest-filename": "xz-1.2.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/tukaani/xz/1.2/xz-1.2.jar",
+		"sha256": "b29db8c05ec99b91b9ed46119d16b125981a39da823bc9c6db8e210be6b297b3",
+		"dest": "maven-local/org/tukaani/xz/1.2",
+		"dest-filename": "xz-1.2.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom",
+		"sha256": "1c7c732fdc37e7705af76835b1589fedd9db2abe1baa76b16bd061bd7291de4f",
+		"dest": "maven-local/org/codehaus/plexus/plexus/3.2",
+		"dest-filename": "plexus-3.2.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom",
+		"sha256": "2b59062030ab0a15c5d0977ba22421706368926488739a65f25793e715cc8a74",
+		"dest": "maven-local/org/codehaus/plexus/plexus/2.0.7",
+		"dest-filename": "plexus-2.0.7.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar",
+		"sha256": "7fc63378d3e84663619b9bedace9f9fe78b276c2be3c62ca2245449294c84176",
+		"dest": "maven-local/org/codehaus/plexus/plexus-interpolation/1.14",
+		"dest-filename": "plexus-interpolation-1.14.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.pom",
+		"sha256": "d08155c497df37b2c3d9b5b0dfdb02ec0525b2070b5be3739fffde942fcac9af",
+		"dest": "maven-local/org/codehaus/plexus/plexus-interpolation/1.14",
+		"dest-filename": "plexus-interpolation-1.14.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom",
+		"sha256": "1bc264824ec876b0ca6f4f5838175c541c638cbc43326a268b9aee7d4778b5ef",
+		"dest": "maven-local/org/codehaus/plexus/plexus-containers/1.5.5",
+		"dest-filename": "plexus-containers-1.5.5.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-components/1.1.18/plexus-components-1.1.18.pom",
+		"sha256": "ef5dbc7fa918b6dbba71d27e5b3d7a00df624bcfa2549a7297f36fe275f634d7",
+		"dest": "maven-local/org/codehaus/plexus/plexus-components/1.1.18",
+		"dest-filename": "plexus-components-1.1.18.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar",
+		"sha256": "4df7a6a7be64b35bbccf60b5c115697f9ea3421d22674ae67135dde375fcca1f",
+		"dest": "maven-local/org/codehaus/plexus/plexus-component-annotations/1.5.5",
+		"dest-filename": "plexus-component-annotations-1.5.5.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom",
+		"sha256": "815f3ec316b8c5fa701385fdf4009bfb51e07d780e8f6a6e2afe720c52d7e292",
+		"dest": "maven-local/org/codehaus/plexus/plexus-component-annotations/1.5.5",
+		"dest-filename": "plexus-component-annotations-1.5.5.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.pom",
+		"sha256": "c0439c2b2d850488686143e2529f521b38f2abded6ac212add8f0c637eb912e9",
+		"dest": "maven-local/org/codehaus/plexus/plexus-classworlds/2.4",
+		"dest-filename": "plexus-classworlds-2.4.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.jar",
+		"sha256": "259d528a29722cab6349d7e7d432e3fd4877c087ffcb04985a6612e97023bba8",
+		"dest": "maven-local/org/codehaus/plexus/plexus-classworlds/2.4",
+		"dest-filename": "plexus-classworlds-2.4.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.jar",
+		"sha256": "6c040032841fe6b23612c7a4b52347a4a115fdde748086c399a154b4b108e56b",
+		"dest": "maven-local/org/codehaus/plexus/plexus-utils/3.0.8",
+		"dest-filename": "plexus-utils-3.0.8.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.pom",
+		"sha256": "0f0794dc7bdd60775d1b1e9bf70c55f2e4051bcd3d5e263a56c678080db3bbc1",
+		"dest": "maven-local/org/codehaus/plexus/plexus-utils/3.0.8",
+		"dest-filename": "plexus-utils-3.0.8.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/2.0.7/plexus-utils-2.0.7.pom",
+		"sha256": "4ba8c3e6b5adcc10df7f2f7992d74dc532c8803a14f1fbc5509299ba7f75ff82",
+		"dest": "maven-local/org/codehaus/plexus/plexus-utils/2.0.7",
+		"dest-filename": "plexus-utils-2.0.7.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom",
+		"sha256": "9151f9a5b33ec36ee8778842fc56144fb0242d39cbcc42061b053b8909969bdf",
+		"dest": "maven-local/org/sonatype/spice/spice-parent/17",
+		"dest-filename": "spice-parent-17.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom",
+		"sha256": "fb40265f982548212ff82e362e59732b2187ec6f0d80182885c14ef1f982827a",
+		"dest": "maven-local/org/sonatype/oss/oss-parent/9",
+		"dest-filename": "oss-parent-9.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom",
+		"sha256": "b51f8867c92b6a722499557fc3a1fdea77bdf9ef574722fe90ce436a29559454",
+		"dest": "maven-local/org/sonatype/oss/oss-parent/7",
+		"dest-filename": "oss-parent-7.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/aether/aether/1.13.1/aether-1.13.1.pom",
+		"sha256": "719fe091fd3fe4c6a7b8f69c8714935138b85a2b6145068a1ccfdb57d2e500d1",
+		"dest": "maven-local/org/sonatype/aether/aether/1.13.1",
+		"dest-filename": "aether-1.13.1.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/aether/aether-connector-wagon/1.13.1/aether-connector-wagon-1.13.1.pom",
+		"sha256": "68fc8c02a03db7a1708d236cc08bcb3aed3e8cee73b05a9bb6001285ce8a916c",
+		"dest": "maven-local/org/sonatype/aether/aether-connector-wagon/1.13.1",
+		"dest-filename": "aether-connector-wagon-1.13.1.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/aether/aether-connector-wagon/1.13.1/aether-connector-wagon-1.13.1.jar",
+		"sha256": "df54e8505104228ee7e3fbdead7a7a9cb753b04ca6c9cf60a6b19aee0737f1ec",
+		"dest": "maven-local/org/sonatype/aether/aether-connector-wagon/1.13.1",
+		"dest-filename": "aether-connector-wagon-1.13.1.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/aether/aether-spi/1.13.1/aether-spi-1.13.1.pom",
+		"sha256": "3d0c466fe8af3983356991ca7ff01a802920e04f946675d920420e154c5edec2",
+		"dest": "maven-local/org/sonatype/aether/aether-spi/1.13.1",
+		"dest-filename": "aether-spi-1.13.1.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/aether/aether-spi/1.13.1/aether-spi-1.13.1.jar",
+		"sha256": "d5de4e299be5a79feb1dbe8ff3814034c6e44314b4c00b92ffa8d97576ded5b3",
+		"dest": "maven-local/org/sonatype/aether/aether-spi/1.13.1",
+		"dest-filename": "aether-spi-1.13.1.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/aether/aether-util/1.13.1/aether-util-1.13.1.pom",
+		"sha256": "abd5e7869aa58f720d8c7301004334449351ad297aeb6ba2ebabf9b38503267b",
+		"dest": "maven-local/org/sonatype/aether/aether-util/1.13.1",
+		"dest-filename": "aether-util-1.13.1.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/aether/aether-util/1.13.1/aether-util-1.13.1.jar",
+		"sha256": "687799a0ce988bee9e8eb9ae0ba870300adc0114248ad4a4327bdb625d27e010",
+		"dest": "maven-local/org/sonatype/aether/aether-util/1.13.1",
+		"dest-filename": "aether-util-1.13.1.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/aether/aether-api/1.13.1/aether-api-1.13.1.pom",
+		"sha256": "9a58a1ddbbbe5b635674a958ac9d95d4ffaba7a40b9f800cde2cdf4986c3ef2a",
+		"dest": "maven-local/org/sonatype/aether/aether-api/1.13.1",
+		"dest-filename": "aether-api-1.13.1.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/aether/aether-api/1.13.1/aether-api-1.13.1.jar",
+		"sha256": "ae8dc80232771f8913febfa410c5719e9ba8ded81fb99788e214fd676dbbe13f",
+		"dest": "maven-local/org/sonatype/aether/aether-api/1.13.1",
+		"dest-filename": "aether-api-1.13.1.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/aether/aether-impl/1.13.1/aether-impl-1.13.1.pom",
+		"sha256": "5d85a54716b6c6fc043895b129c3c76a2b9ca922c3bd79158ef08b7960aaf330",
+		"dest": "maven-local/org/sonatype/aether/aether-impl/1.13.1",
+		"dest-filename": "aether-impl-1.13.1.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/aether/aether-impl/1.13.1/aether-impl-1.13.1.jar",
+		"sha256": "865511994805827e88f327944a089142bb7f3d88cde271ba3dceb732cb137a93",
+		"dest": "maven-local/org/sonatype/aether/aether-impl/1.13.1",
+		"dest-filename": "aether-impl-1.13.1.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-plexus/2.2.3/sisu-inject-plexus-2.2.3.pom",
+		"sha256": "402818cace82903cb15ca2f94c38592f41f7868aee350de6b6880ecd83503318",
+		"dest": "maven-local/org/sonatype/sisu/sisu-inject-plexus/2.2.3",
+		"dest-filename": "sisu-inject-plexus-2.2.3.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-plexus/2.2.3/sisu-inject-plexus-2.2.3.jar",
+		"sha256": "c2d77293b03c97c04fa0488cad4fe38f15c71fd7d0c140961f8e06002a761238",
+		"dest": "maven-local/org/sonatype/sisu/sisu-inject-plexus/2.2.3",
+		"dest-filename": "sisu-inject-plexus-2.2.3.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject/2.2.3/sisu-inject-2.2.3.pom",
+		"sha256": "787c35a621f325285036d59bf8d395dcd72b6b2607c48c03a7e030b5a9dce882",
+		"dest": "maven-local/org/sonatype/sisu/sisu-inject/2.2.3",
+		"dest-filename": "sisu-inject-2.2.3.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-parent/2.2.3/sisu-parent-2.2.3.pom",
+		"sha256": "c8ce353ab602ca45e6052f154a583670c9732dbf78187332f8ad5e8852e76c06",
+		"dest": "maven-local/org/sonatype/sisu/sisu-parent/2.2.3",
+		"dest-filename": "sisu-parent-2.2.3.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-bean/2.2.3/sisu-inject-bean-2.2.3.pom",
+		"sha256": "9342fae272b710508a1618d84c8b6f5cfd4657d478cd9f747087608daa43e51c",
+		"dest": "maven-local/org/sonatype/sisu/sisu-inject-bean/2.2.3",
+		"dest-filename": "sisu-inject-bean-2.2.3.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-bean/2.2.3/sisu-inject-bean-2.2.3.jar",
+		"sha256": "bf24d1c1c545f7b100b3e60e7d95250961beb1aae5216ca19bc0ceb7accbd22b",
+		"dest": "maven-local/org/sonatype/sisu/sisu-inject-bean/2.2.3",
+		"dest-filename": "sisu-inject-bean-2.2.3.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-guice/3.0.3/sisu-guice-3.0.3.pom",
+		"sha256": "a3459b4a876fb8a5c46f762097fab83a376f00a5001d64bc63ac610295c5172a",
+		"dest": "maven-local/org/sonatype/sisu/sisu-guice/3.0.3",
+		"dest-filename": "sisu-guice-3.0.3.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-guice/3.0.3/sisu-guice-3.0.3-no_aop.jar",
+		"sha256": "d59b793db4e75c40a5b41b074418010d109c895bd5dc4dc074ed1adc88e79538",
+		"dest": "maven-local/org/sonatype/sisu/sisu-guice/3.0.3",
+		"dest-filename": "sisu-guice-3.0.3-no_aop.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/sisu/inject/guice-plexus/2.2.3/guice-plexus-2.2.3.pom",
+		"sha256": "df0bea0b5643ede6628691f4e53d036f0034e2f199012d7307c4147d85906d23",
+		"dest": "maven-local/org/sonatype/sisu/inject/guice-plexus/2.2.3",
+		"dest-filename": "guice-plexus-2.2.3.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/sisu/inject/guice-bean/2.2.3/guice-bean-2.2.3.pom",
+		"sha256": "59882ad8efe16aef0cc291566f0b2e2f5d6c7ca7abc57c0ec83eeceeb6ca75f7",
+		"dest": "maven-local/org/sonatype/sisu/inject/guice-bean/2.2.3",
+		"dest-filename": "guice-bean-2.2.3.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/sisu/inject/containers/2.2.3/containers-2.2.3.pom",
+		"sha256": "530070403af2dc54626fc4ce572d2e532689c8c2ee747458772a57d604a197f6",
+		"dest": "maven-local/org/sonatype/sisu/inject/containers/2.2.3",
+		"dest-filename": "containers-2.2.3.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/sisu/inject/guice-parent/3.0.3/guice-parent-3.0.3.pom",
+		"sha256": "6f4206ec1234f333758c0391c399fe2a22974246b4f4b64fa0151742c352aa74",
+		"dest": "maven-local/org/sonatype/sisu/inject/guice-parent/3.0.3",
+		"dest-filename": "guice-parent-3.0.3.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom",
+		"sha256": "c14fb9c32b59cc03251f609416db7c0cff01f811edcccb4f6a865d6e7046bd0b",
+		"dest": "maven-local/org/sonatype/forge/forge-parent/10",
+		"dest-filename": "forge-parent-10.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/sonatype/forge/forge-parent/9/forge-parent-9.pom",
+		"sha256": "8a19cfb90b52258cc115b28c30cb0c06c55bd7aad37b13bbec0c4332faa58ae9",
+		"dest": "maven-local/org/sonatype/forge/forge-parent/9",
+		"dest-filename": "forge-parent-9.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom",
+		"sha256": "ff513db0361fd41237bef4784968bc15aae478d4ec0a9496f811072ccaf3841d",
+		"dest": "maven-local/org/apache/apache/13",
+		"dest-filename": "apache-13.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/apache/10/apache-10.pom",
+		"sha256": "802feece72852dafcbd0a425a60367c72c5cb9b6ea5aae59481128569189daf9",
+		"dest": "maven-local/org/apache/apache/10",
+		"dest-filename": "apache-10.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom",
+		"sha256": "4946e60a547c8eda69f3bc23c5b6f0dadcf8469ea49b1d1da7de34aecfcf18dd",
+		"dest": "maven-local/org/apache/apache/9",
+		"dest-filename": "apache-9.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/apache/7/apache-7.pom",
+		"sha256": "1397ce1db433adc9f223dbf07496d133681448751f4ae29e58f68e78fb4b6c25",
+		"dest": "maven-local/org/apache/apache/7",
+		"dest-filename": "apache-7.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/apache/4/apache-4.pom",
+		"sha256": "9e9323a26ba8eb2394efef0c96d31b70df570808630dc147cab1e73541cc5194",
+		"dest": "maven-local/org/apache/apache/4",
+		"dest-filename": "apache-4.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.pom",
+		"sha256": "a74468d51a888853d970d576eb67932a6ac31d902f4f54a91c374ee340cd2759",
+		"dest": "maven-local/org/apache/commons/commons-compress/1.5",
+		"dest-filename": "commons-compress-1.5.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.jar",
+		"sha256": "55bbfe26cee9296fd5b7c0d47ce6a00ea4dd572e235b63e9bb4eaf6f802315e4",
+		"dest": "maven-local/org/apache/commons/commons-compress/1.5",
+		"dest-filename": "commons-compress-1.5.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom",
+		"sha256": "fb8c5e55e30a7addb4ff210858a0e8d2494ed6757bbe19012da99d51586c3cbb",
+		"dest": "maven-local/org/apache/commons/commons-parent/22",
+		"dest-filename": "commons-parent-22.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom",
+		"sha256": "14733a68e8b120b69de60cd96d222146dcf32f03c1c6cc6a750b1269bafe86c7",
+		"dest": "maven-local/org/apache/commons/commons-parent/28",
+		"dest-filename": "commons-parent-28.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/commons/commons-parent/15/commons-parent-15.pom",
+		"sha256": "f4457f2b34d38fec9995b5b8db6692b71728feaaabe5a285c100bbdcabdf133d",
+		"dest": "maven-local/org/apache/commons/commons-parent/15",
+		"dest-filename": "commons-parent-15.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom",
+		"sha256": "8bd632c00bdf80a7de36c22b60f12452c147d8eca2f00d79d66699ebe7daa02a",
+		"dest": "maven-local/org/apache/commons/commons-parent/5",
+		"dest-filename": "commons-parent-5.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom",
+		"sha256": "5425501edd9e0bd7b01eca53cc92e06836d24851151304f9c6759e1713541685",
+		"dest": "maven-local/org/apache/maven/maven-parent/23",
+		"dest-filename": "maven-parent-23.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom",
+		"sha256": "fc45af8911ea307d1b57564eef1f78b69801e9c11a5619e7eb58d5d00ae9db8e",
+		"dest": "maven-local/org/apache/maven/maven-parent/21",
+		"dest-filename": "maven-parent-21.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.4/wagon-provider-api-2.4.pom",
+		"sha256": "d5fa8e200caabe0ea95bb805011e9870c660c55c89d4492feb842f918b7fc2e5",
+		"dest": "maven-local/org/apache/maven/wagon/wagon-provider-api/2.4",
+		"dest-filename": "wagon-provider-api-2.4.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.4/wagon-provider-api-2.4.jar",
+		"sha256": "f65d8d59d71bca18ffa259b5a6de67697bc65b9ff1142c7bb4417ab4b1cacd92",
+		"dest": "maven-local/org/apache/maven/wagon/wagon-provider-api/2.4",
+		"dest-filename": "wagon-provider-api-2.4.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon/2.4/wagon-2.4.pom",
+		"sha256": "584d149a7eb90e627d31ddbdd5f1939bc456cbeec279a1a3ef9639411f234a5e",
+		"dest": "maven-local/org/apache/maven/wagon/wagon/2.4",
+		"dest-filename": "wagon-2.4.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http/2.4/wagon-http-2.4.pom",
+		"sha256": "da9fada262339b27bc41c33ce2c7203558040f9922ac6b4d096dc332e85d6825",
+		"dest": "maven-local/org/apache/maven/wagon/wagon-http/2.4",
+		"dest-filename": "wagon-http-2.4.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http/2.4/wagon-http-2.4.jar",
+		"sha256": "2aec22bbe7f420a2dadaa1fe7198dc00b1498fed8700161d4e3fc78fde87ef74",
+		"dest": "maven-local/org/apache/maven/wagon/wagon-http/2.4",
+		"dest-filename": "wagon-http-2.4.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-providers/2.4/wagon-providers-2.4.pom",
+		"sha256": "90a2e46f771cfb02bdcef7ee5e1cc0c432884267bff1579f6066a99e0b403766",
+		"dest": "maven-local/org/apache/maven/wagon/wagon-providers/2.4",
+		"dest-filename": "wagon-providers-2.4.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http-shared4/2.4/wagon-http-shared4-2.4.pom",
+		"sha256": "b69470fb909611d18ae9e82887cbb43d09d1f48883e99e5da7422d31e9704c6c",
+		"dest": "maven-local/org/apache/maven/wagon/wagon-http-shared4/2.4",
+		"dest-filename": "wagon-http-shared4-2.4.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http-shared4/2.4/wagon-http-shared4-2.4.jar",
+		"sha256": "8d9d80369811575716a638ac41a618e5ad915ee3f98890e61e03a17f783d10eb",
+		"dest": "maven-local/org/apache/maven/wagon/wagon-http-shared4/2.4",
+		"dest-filename": "wagon-http-shared4-2.4.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/maven-aether-provider/3.0.4/maven-aether-provider-3.0.4.pom",
+		"sha256": "a5082fe0a870bd361b3ecd6ab3e4641cfe775a8da19d80d8b2e277e7861f831b",
+		"dest": "maven-local/org/apache/maven/maven-aether-provider/3.0.4",
+		"dest-filename": "maven-aether-provider-3.0.4.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/maven-aether-provider/3.0.4/maven-aether-provider-3.0.4.jar",
+		"sha256": "33ff4aabbd0d02e4dd8279cda8f366c69915302bc4bb97bc01814a985f5c0643",
+		"dest": "maven-local/org/apache/maven/maven-aether-provider/3.0.4",
+		"dest-filename": "maven-aether-provider-3.0.4.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/maven/3.0.4/maven-3.0.4.pom",
+		"sha256": "4d223e01a6569d6655c1f4fce84969d45142cdbabdb118ea08c5c8c33ec632f6",
+		"dest": "maven-local/org/apache/maven/maven/3.0.4",
+		"dest-filename": "maven-3.0.4.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.0.4/maven-model-3.0.4.pom",
+		"sha256": "264be3f212d59f9103d3b997c9d0197ff89489d06b7d195d80ee56356b6c662e",
+		"dest": "maven-local/org/apache/maven/maven-model/3.0.4",
+		"dest-filename": "maven-model-3.0.4.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.0.4/maven-model-3.0.4.jar",
+		"sha256": "26b6825ea73ac4d7b1a6f5e62ac1c11b0fc272504da6dde9ba8f894cd847e1c1",
+		"dest": "maven-local/org/apache/maven/maven-model/3.0.4",
+		"dest-filename": "maven-model-3.0.4.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/3.0.4/maven-repository-metadata-3.0.4.pom",
+		"sha256": "5fe2b1d87fd326c1a22aac3869da7935ad31760d978fdff9a073c3fbfd54e18d",
+		"dest": "maven-local/org/apache/maven/maven-repository-metadata/3.0.4",
+		"dest-filename": "maven-repository-metadata-3.0.4.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/3.0.4/maven-repository-metadata-3.0.4.jar",
+		"sha256": "a25c4db27cffda9e9229db168b1190d6a3e5439f3f67d6afec3df9470e0752d5",
+		"dest": "maven-local/org/apache/maven/maven-repository-metadata/3.0.4",
+		"dest-filename": "maven-repository-metadata-3.0.4.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/maven-model-builder/3.0.4/maven-model-builder-3.0.4.pom",
+		"sha256": "ac605e66a84dd9ee63610d650b007e3c8fbb7feef73e94bdd899e60dd475a20f",
+		"dest": "maven-local/org/apache/maven/maven-model-builder/3.0.4",
+		"dest-filename": "maven-model-builder-3.0.4.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/maven/maven-model-builder/3.0.4/maven-model-builder-3.0.4.jar",
+		"sha256": "b4f1d3ae53c290e1ae45694c5ce2d17bf8d577ff5ece0f9aa0cffe151a6ef4e7",
+		"dest": "maven-local/org/apache/maven/maven-model-builder/3.0.4",
+		"dest-filename": "maven-model-builder-3.0.4.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.pom",
+		"sha256": "b7cfd3e67fb772209093d6a997597c7dfdf27ad7b7f6b96b0d262d8bec9e6042",
+		"dest": "maven-local/org/apache/httpcomponents/httpclient/4.2.3",
+		"dest-filename": "httpclient-4.2.3.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.jar",
+		"sha256": "279ba66dbb16c39fdab9d9c211dc9ae05358283617f3bb9f3dc0156c1dca1520",
+		"dest": "maven-local/org/apache/httpcomponents/httpclient/4.2.3",
+		"dest-filename": "httpclient-4.2.3.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.3/httpcore-4.2.3.pom",
+		"sha256": "efea6e3c67b3111e04d33239797fc4bb77db2d6a3c647a7f3d4ba20c8c16cb1c",
+		"dest": "maven-local/org/apache/httpcomponents/httpcore/4.2.3",
+		"dest-filename": "httpcore-4.2.3.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.3/httpcore-4.2.3.jar",
+		"sha256": "17f61f533e29e90c999296c30fc28b75031cc511dc1d9b9929cd74d8b3bc2db0",
+		"dest": "maven-local/org/apache/httpcomponents/httpcore/4.2.3",
+		"dest-filename": "httpcore-4.2.3.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.2.3/httpcomponents-client-4.2.3.pom",
+		"sha256": "f31c40df04e48fa161a87775d368c531c52a02623f03712096c63e233a951bda",
+		"dest": "maven-local/org/apache/httpcomponents/httpcomponents-client/4.2.3",
+		"dest-filename": "httpcomponents-client-4.2.3.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.2.3/httpcomponents-core-4.2.3.pom",
+		"sha256": "6bf79beff2f38e33afe5662da74db8cedf3cf556bc20acf71043ecad3343d4c7",
+		"dest": "maven-local/org/apache/httpcomponents/httpcomponents-core/4.2.3",
+		"dest-filename": "httpcomponents-core-4.2.3.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/project/6/project-6.pom",
+		"sha256": "b5d9225adb8683c1d7c5514544382add004547c93694abb5bd52b87346886f42",
+		"dest": "maven-local/org/apache/httpcomponents/project/6",
+		"dest-filename": "project-6.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jsoup/jsoup/1.7.1/jsoup-1.7.1.pom",
+		"sha256": "266ba5001eac7ee4b2862439ffd4f811ddcf76101ac138bcac25f2594f5cc11e",
+		"dest": "maven-local/org/jsoup/jsoup/1.7.1",
+		"dest-filename": "jsoup-1.7.1.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jsoup/jsoup/1.7.1/jsoup-1.7.1.jar",
+		"sha256": "37e3b44fb9476a677a956fb684090b9b4a1e4d38bcfc30b499dbc83f109422c0",
+		"dest": "maven-local/org/jsoup/jsoup/1.7.1",
+		"dest-filename": "jsoup-1.7.1.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.pom",
+		"sha256": "cf2e0c90d8f757455f4a258ea609739053663bd5da6a79d9bd53f935a47de79c",
+		"dest": "maven-local/org/checkerframework/checker-qual/2.11.1",
+		"dest-filename": "checker-qual-2.11.1.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar",
+		"sha256": "015224a4b1dc6de6da053273d4da7d39cfea20e63038169fc45ac0d1dc9c5938",
+		"dest": "maven-local/org/checkerframework/checker-qual/2.11.1",
+		"dest-filename": "checker-qual-2.11.1.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1.pom",
+		"sha256": "2cb726d89098c141879cceadcee532ac99a9c016d5429e440123aa112fc96a02",
+		"dest": "maven-local/org/lz4/lz4-java/1.7.1",
+		"dest-filename": "lz4-java-1.7.1.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1.jar",
+		"sha256": "f1167a45d4b8002053670ef6991ca66d1bab9dcc03e4ef00183674d2f3fb9cac",
+		"dest": "maven-local/org/lz4/lz4-java/1.7.1",
+		"dest-filename": "lz4-java-1.7.1.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/jvm/org.jetbrains.kotlin.jvm.gradle.plugin/1.6.0-RC/org.jetbrains.kotlin.jvm.gradle.plugin-1.6.0-RC.pom",
+		"sha256": "b297be583e4f0f32d191698b40559c3ffa753f206ace8c8d35f92def4f7977cf",
+		"dest": "maven-local/org/jetbrains/kotlin/jvm/org.jetbrains.kotlin.jvm.gradle.plugin/1.6.0-RC",
+		"dest-filename": "org.jetbrains.kotlin.jvm.gradle.plugin-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kapt/org.jetbrains.kotlin.kapt.gradle.plugin/1.6.0-RC/org.jetbrains.kotlin.kapt.gradle.plugin-1.6.0-RC.pom",
+		"sha256": "a776df2e4dd98cf04858c155d6bf30f580911ed16eadb33a78658110b89ea73e",
+		"dest": "maven-local/org/jetbrains/kotlin/kapt/org.jetbrains.kotlin.kapt.gradle.plugin/1.6.0-RC",
+		"dest-filename": "org.jetbrains.kotlin.kapt.gradle.plugin-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.6.0-RC/kotlin-gradle-plugin-1.6.0-RC.pom",
+		"sha256": "d7d20c106857b5fe9be38050df8f16dbb0ae5a65f706e0583a22eb0e4f0d2fd0",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-gradle-plugin/1.6.0-RC",
+		"dest-filename": "kotlin-gradle-plugin-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.6.0-RC/kotlin-gradle-plugin-1.6.0-RC.jar",
+		"sha256": "307df86b4dbc004a4c2e5f2367b1079a3532480385849f27ff0f26ccc2a8ae42",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-gradle-plugin/1.6.0-RC",
+		"dest-filename": "kotlin-gradle-plugin-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.6.0-RC/kotlin-scripting-compiler-embeddable-1.6.0-RC.pom",
+		"sha256": "6642378733ac4fb6cb8ee03b77e4981fe864ea2b92a2c008005c9de31ec74e82",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.6.0-RC",
+		"dest-filename": "kotlin-scripting-compiler-embeddable-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.6.0-RC/kotlin-scripting-compiler-embeddable-1.6.0-RC.jar",
+		"sha256": "3aa4645c6e006d8f1b115b19998bf24bc3c8d17574546aa22719d63f585d4301",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.6.0-RC",
+		"dest-filename": "kotlin-scripting-compiler-embeddable-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-project-model/1.6.0-RC/kotlin-project-model-1.6.0-RC.pom",
+		"sha256": "38195de759cccef2709af9bb1845a01840a9c397b26fc2baa852dea8b7c642a5",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-project-model/1.6.0-RC",
+		"dest-filename": "kotlin-project-model-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-project-model/1.6.0-RC/kotlin-project-model-1.6.0-RC.jar",
+		"sha256": "3395253cc048e396bc7eea67942a18a4c2a42ee1e6c092fc74d575b630b5d821",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-project-model/1.6.0-RC",
+		"dest-filename": "kotlin-project-model-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.6.0-RC/kotlin-gradle-plugin-api-1.6.0-RC.pom",
+		"sha256": "32ef19dd2eb63bcc5d9fff3f047291e94af0662f3c6bd235451725c38765e19e",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.6.0-RC",
+		"dest-filename": "kotlin-gradle-plugin-api-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.6.0-RC/kotlin-gradle-plugin-api-1.6.0-RC.jar",
+		"sha256": "8e7bd85c87e3c19e1dda8c9663e659647acb6aa1a377ff08b669d7bc446052ae",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.6.0-RC",
+		"dest-filename": "kotlin-gradle-plugin-api-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.6.0-RC/kotlin-annotation-processing-gradle-1.6.0-RC.pom",
+		"sha256": "3564b363d72ce70371b992543a4c8fdeec3a6a6affe6056e0f58d00d7405afe1",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.6.0-RC",
+		"dest-filename": "kotlin-annotation-processing-gradle-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.6.0-RC/kotlin-annotation-processing-gradle-1.6.0-RC.jar",
+		"sha256": "b71b50833cc567d038259c369eec197af3ad6695a27e809c2133071ee6f113b3",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.6.0-RC",
+		"dest-filename": "kotlin-annotation-processing-gradle-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.6.0-RC/kotlin-scripting-compiler-impl-embeddable-1.6.0-RC.pom",
+		"sha256": "5ea51a86d416df417a632cd4acf23893435862de040bd7bc040d4071132a0152",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.6.0-RC",
+		"dest-filename": "kotlin-scripting-compiler-impl-embeddable-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.6.0-RC/kotlin-scripting-compiler-impl-embeddable-1.6.0-RC.jar",
+		"sha256": "35c680190150370a3157528bbb6580185b013db5c303bd5e8995858fc011b4e9",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.6.0-RC",
+		"dest-filename": "kotlin-scripting-compiler-impl-embeddable-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/1.6.0-RC/kotlin-compiler-runner-1.6.0-RC.pom",
+		"sha256": "33fd2ed57e9487c71f3ba9ff99bf4f21b74bfe6b5c81e37b742d87567f32a262",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-compiler-runner/1.6.0-RC",
+		"dest-filename": "kotlin-compiler-runner-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/1.6.0-RC/kotlin-compiler-runner-1.6.0-RC.jar",
+		"sha256": "3df1f4e05ae727d05515b9cddcaf16374069fc67b175056b91d2123ea0543c05",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-compiler-runner/1.6.0-RC",
+		"dest-filename": "kotlin-compiler-runner-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-tooling-metadata/1.6.0-RC/kotlin-tooling-metadata-1.6.0-RC.pom",
+		"sha256": "84c0238e8d9d03ff7423ee78ef9450c403b6e6ff0b699553705e4401f93b2d8b",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-tooling-metadata/1.6.0-RC",
+		"dest-filename": "kotlin-tooling-metadata-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-tooling-metadata/1.6.0-RC/kotlin-tooling-metadata-1.6.0-RC.jar",
+		"sha256": "5f79b547f80ceba482d6f71844b23445e109f685eb74481044678cd75c28ad77",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-tooling-metadata/1.6.0-RC",
+		"dest-filename": "kotlin-tooling-metadata-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.6.0-RC/kotlin-compiler-embeddable-1.6.0-RC.pom",
+		"sha256": "4f71c82ba0ca7d1bd9fa874d874a74d0f10900350a12d3ab39ab6b977a42a7c2",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.6.0-RC",
+		"dest-filename": "kotlin-compiler-embeddable-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.6.0-RC/kotlin-compiler-embeddable-1.6.0-RC.jar",
+		"sha256": "db53e39415b6c24a2b31fb98ca430199b4a8d4c9f6c79fa2ccab907a8e8a3b43",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.6.0-RC",
+		"dest-filename": "kotlin-compiler-embeddable-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-android-extensions/1.6.0-RC/kotlin-android-extensions-1.6.0-RC.pom",
+		"sha256": "36230d233487bc2ad48ed7406ec75adb9255552eab5ac39382d51502b06f81b3",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-android-extensions/1.6.0-RC",
+		"dest-filename": "kotlin-android-extensions-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-android-extensions/1.6.0-RC/kotlin-android-extensions-1.6.0-RC.jar",
+		"sha256": "6a460d846699654d1672caafe5babc1d65bcc21ada8b518e047b37f93858fa29",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-android-extensions/1.6.0-RC",
+		"dest-filename": "kotlin-android-extensions-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-util-klib/1.6.0-RC/kotlin-util-klib-1.6.0-RC.pom",
+		"sha256": "e7e54a8e3b3221c72a809ad3970f0bf1fc88d865b2d43bc3a1c555dbee3c5054",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-util-klib/1.6.0-RC",
+		"dest-filename": "kotlin-util-klib-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-util-klib/1.6.0-RC/kotlin-util-klib-1.6.0-RC.jar",
+		"sha256": "76f1d1add06ef235817f7009e3938fb4b2a8cf0aba27985d2dec566752702e40",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-util-klib/1.6.0-RC",
+		"dest-filename": "kotlin-util-klib-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.6.0-RC/kotlin-gradle-plugin-model-1.6.0-RC.pom",
+		"sha256": "c82a7891320b2b296a003567cd73ae3ee902eed85c4e638890bdfadce2d656d1",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.6.0-RC",
+		"dest-filename": "kotlin-gradle-plugin-model-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.6.0-RC/kotlin-gradle-plugin-model-1.6.0-RC.jar",
+		"sha256": "55f36556a931240731d8f14a9d2e9b6527f43f99b891a246feeace3262195f8d",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.6.0-RC",
+		"dest-filename": "kotlin-gradle-plugin-model-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-klib-commonizer-api/1.6.0-RC/kotlin-klib-commonizer-api-1.6.0-RC.pom",
+		"sha256": "f53399bbc2deb3d99afe7ec820727f32687376bb165e0db2d0132f20ab02364d",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-klib-commonizer-api/1.6.0-RC",
+		"dest-filename": "kotlin-klib-commonizer-api-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-klib-commonizer-api/1.6.0-RC/kotlin-klib-commonizer-api-1.6.0-RC.jar",
+		"sha256": "a29d934309bed8547b81d59151917bc49504cd4f4a633c009009a8221597a399",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-klib-commonizer-api/1.6.0-RC",
+		"dest-filename": "kotlin-klib-commonizer-api-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-native-utils/1.6.0-RC/kotlin-native-utils-1.6.0-RC.pom",
+		"sha256": "2b3fbe21c6999c87940caf1314d5385dbeee349bf8a74c10217d544dc56d08ca",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-native-utils/1.6.0-RC",
+		"dest-filename": "kotlin-native-utils-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-native-utils/1.6.0-RC/kotlin-native-utils-1.6.0-RC.jar",
+		"sha256": "12c8cc649a9fb00844773c8b6c1c3a3f328ee60a3c83d52c76e842345d7ad350",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-native-utils/1.6.0-RC",
+		"dest-filename": "kotlin-native-utils-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-util-io/1.6.0-RC/kotlin-util-io-1.6.0-RC.pom",
+		"sha256": "31029216614164fae3cb5b02a156a261c7cbfbb9d2064a7445de93c1d462e546",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-util-io/1.6.0-RC",
+		"dest-filename": "kotlin-util-io-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-util-io/1.6.0-RC/kotlin-util-io-1.6.0-RC.jar",
+		"sha256": "c45194145e48436faf3485e4816b01f2f71bf9bb12711aef094ea0f98659b210",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-util-io/1.6.0-RC",
+		"dest-filename": "kotlin-util-io-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.6.0-RC/kotlin-daemon-embeddable-1.6.0-RC.pom",
+		"sha256": "f353ad3c373d8b5a417c71e081db8742af3d17c153ddbd33e1dee4c81867dd59",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.6.0-RC",
+		"dest-filename": "kotlin-daemon-embeddable-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.6.0-RC/kotlin-daemon-embeddable-1.6.0-RC.jar",
+		"sha256": "4f1863af2feeff5d481fe59aba5196b898d7f07efa7b71c40c197a7181a237cb",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.6.0-RC",
+		"dest-filename": "kotlin-daemon-embeddable-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-common/1.6.0-RC/kotlin-build-common-1.6.0-RC.pom",
+		"sha256": "b6ba538a33e0a1d3544f65f2c0775ce3efd8d9c9ea24d17df33e2fd3ac9452f6",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-build-common/1.6.0-RC",
+		"dest-filename": "kotlin-build-common-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-common/1.6.0-RC/kotlin-build-common-1.6.0-RC.jar",
+		"sha256": "b82df4753976ee13acac7b5624590c254fe6877a928189eb599408763e777a12",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-build-common/1.6.0-RC",
+		"dest-filename": "kotlin-build-common-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/1.6.0-RC/kotlin-daemon-client-1.6.0-RC.pom",
+		"sha256": "97b0fda024c1a992258b45cb691f6b8c4257418eae1b2fd76b440986a173af0f",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-daemon-client/1.6.0-RC",
+		"dest-filename": "kotlin-daemon-client-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/1.6.0-RC/kotlin-daemon-client-1.6.0-RC.jar",
+		"sha256": "1b708701b172d724fdc2a5c6dd1c75293cfafe4cfd59d546dbd4fcd8d1c7f85d",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-daemon-client/1.6.0-RC",
+		"dest-filename": "kotlin-daemon-client-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/1.6.0-RC/kotlin-scripting-jvm-1.6.0-RC.pom",
+		"sha256": "edf1fbef8e20be399846b562d2f6fe2333dde8f1262c0e926c5284523fd8f80f",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-scripting-jvm/1.6.0-RC",
+		"dest-filename": "kotlin-scripting-jvm-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/1.6.0-RC/kotlin-scripting-jvm-1.6.0-RC.jar",
+		"sha256": "88f84d4a3b2724d9ee9754feb3fd34b7e81ecb548371ba8ebcffdb2224e7c405",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-scripting-jvm/1.6.0-RC",
+		"dest-filename": "kotlin-scripting-jvm-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/1.6.0-RC/kotlin-scripting-common-1.6.0-RC.pom",
+		"sha256": "932a25cd4c12a4ce3b29ac2c34f106b2032e5dc4b29c777608080104362a10cb",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-scripting-common/1.6.0-RC",
+		"dest-filename": "kotlin-scripting-common-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/1.6.0-RC/kotlin-scripting-common-1.6.0-RC.jar",
+		"sha256": "2a64ef58e635463bbcd1092f042026bb64623a76712214f6f047e5cfd87535ee",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-scripting-common/1.6.0-RC",
+		"dest-filename": "kotlin-scripting-common-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.6.0-RC/kotlin-stdlib-1.6.0-RC.pom",
+		"sha256": "1a54e0dfbccfb672f89e8d23f249f1eb5b41e1847018ffd79574adef0549cff6",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib/1.6.0-RC",
+		"dest-filename": "kotlin-stdlib-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.6.0-RC/kotlin-stdlib-1.6.0-RC.jar",
+		"sha256": "738ad75adaff23dac66a7f14a0d4957b4ad055d8147069f662290cb7af5f4b1e",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib/1.6.0-RC",
+		"dest-filename": "kotlin-stdlib-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.0-RC/kotlin-stdlib-common-1.6.0-RC.pom",
+		"sha256": "2fa2385c21280b36110ca2d1911957df7d233f09fbf6c64b0abb604b10260b0a",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.0-RC",
+		"dest-filename": "kotlin-stdlib-common-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.0-RC/kotlin-stdlib-common-1.6.0-RC.jar",
+		"sha256": "75ac98a23d297656fee679a6fdeab515d46849f059acf840a49e09b4e21e8b58",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.0-RC",
+		"dest-filename": "kotlin-stdlib-common-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.0-RC/kotlin-reflect-1.6.0-RC.pom",
+		"sha256": "533556a5d72d3b7d469b63bf54dbe4855d6d8a73ad02ffde51ef30ffc6eb4015",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-reflect/1.6.0-RC",
+		"dest-filename": "kotlin-reflect-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.0-RC/kotlin-reflect-1.6.0-RC.jar",
+		"sha256": "afeeba5d01d6d16c8e87c877d65ce6ec4170f864c7de338ddb0be05213a38e53",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-reflect/1.6.0-RC",
+		"dest-filename": "kotlin-reflect-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/1.6.0-RC/kotlin-script-runtime-1.6.0-RC.pom",
+		"sha256": "936495ff2168955ce06954587eb3623604635ecd4fe491af807fe1f994d8b105",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-script-runtime/1.6.0-RC",
+		"dest-filename": "kotlin-script-runtime-1.6.0-RC.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/1.6.0-RC/kotlin-script-runtime-1.6.0-RC.jar",
+		"sha256": "2c07288763e3713e91d85b58f4e7c7133f174cf070b1792732f6c24d76e3addc",
+		"dest": "maven-local/org/jetbrains/kotlin/kotlin-script-runtime/1.6.0-RC",
+		"dest-filename": "kotlin-script-runtime-1.6.0-RC.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/intellij/deps/trove4j/1.0.20181211/trove4j-1.0.20181211.pom",
+		"sha256": "310a6aa2d90534c32b8f46f1fc98cd0edae95dcdfca23e2847e5efa9ae0c019a",
+		"dest": "maven-local/org/jetbrains/intellij/deps/trove4j/1.0.20181211",
+		"dest-filename": "trove4j-1.0.20181211.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/intellij/deps/trove4j/1.0.20181211/trove4j-1.0.20181211.jar",
+		"sha256": "affb7c85a3c87bdcf69ff1dbb84de11f63dc931293934bc08cd7ab18de083601",
+		"dest": "maven-local/org/jetbrains/intellij/deps/trove4j/1.0.20181211",
+		"dest-filename": "trove4j-1.0.20181211.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0/kotlinx-coroutines-core-jvm-1.5.0.pom",
+		"sha256": "53622e03778df8440fc012201a35bb4bdfe40164efec612bbefcdeecb2ffc2ab",
+		"dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0",
+		"dest-filename": "kotlinx-coroutines-core-jvm-1.5.0.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0/kotlinx-coroutines-core-jvm-1.5.0.module",
+		"sha256": "c885dd0281076c5843826de317e3cbcdc3d8859dbeef53ae1cfacd1b9c60f96e",
+		"dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0",
+		"dest-filename": "kotlinx-coroutines-core-jvm-1.5.0.module"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0/kotlinx-coroutines-core-jvm-1.5.0.jar",
+		"sha256": "78d6cc7135f84d692ff3752fcfd1fa1bbe0940d7df70652e4f1eaeec0c78afbb",
+		"dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0",
+		"dest-filename": "kotlinx-coroutines-core-jvm-1.5.0.jar"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom",
+		"sha256": "965aeb2bedff369819bdde1bf7a0b3b89b8247dd69c88b86375d76163bb8c397",
+		"dest": "maven-local/org/jetbrains/annotations/13.0",
+		"dest-filename": "annotations-13.0.pom"
+	},
+	{
+		"type": "file",
+		"url": "https://repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+		"sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478",
+		"dest": "maven-local/org/jetbrains/annotations/13.0",
+		"dest-filename": "annotations-13.0.jar"
+	}
+]
