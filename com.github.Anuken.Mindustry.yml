@@ -32,7 +32,6 @@ modules:
       - type: git
         url: 'https://github.com/Anuken/Mindustry'
         tag: 'v135'
-        commit: c24c5c6196cd89bdc17a079a2a8acd372cc260d9
         x-checker-data:
           type: git
           tag-pattern: '^v([0-9.]+)$'
