@@ -33,6 +33,9 @@ modules:
         url: 'https://github.com/Anuken/Mindustry'
         tag: 'v135'
         commit: c24c5c6196cd89bdc17a079a2a8acd372cc260d9
+        x-checker-data:
+          type: git
+          tag-pattern: '^v([0-9.]+)$'
       # Use externally downloaded gradle wrapper
       - type: patch
         path: local-gradle-wrapper.patch
@@ -44,8 +47,15 @@ modules:
       - type: patch
         path: local-maven-repo.patch
       - gradle-sources.json
+      # Build script
+      - type: script
+        commands:
+          - 'set -xe'
+          - 'version=$(git describe --tags | sed -E "s/^v([0-9.]+)$/\1/")'
+          - './gradlew desktop:dist --no-daemon -Pbuildversion=$version'
+        dest-filename: build.sh
     build-commands:
-      - './gradlew desktop:dist --no-daemon -Pbuildversion=135' # TODO: dynamically?
+      - 'bash build.sh'
       - 'install -D desktop/build/libs/Mindustry.jar /app/bin/Mindustry.jar'
       - 'install -D android/ic_launcher-web.png /app/share/icons/hicolor/512x512/apps/com.github.Anuken.Mindustry.png'
 
