@@ -45,7 +45,7 @@ modules:
         path: local-maven-repo.patch
       - gradle-sources.json
     build-commands:
-      - './gradlew desktop:dist --no-daemon'
+      - './gradlew desktop:dist --no-daemon -Pbuildversion=135' # TODO: dynamically?
       - 'install -D desktop/build/libs/Mindustry.jar /app/bin/Mindustry.jar'
       - 'install -D android/ic_launcher-web.png /app/share/icons/hicolor/512x512/apps/com.github.Anuken.Mindustry.png'
 
