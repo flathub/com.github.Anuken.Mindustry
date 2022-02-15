@@ -3,25 +3,39 @@
 set -e
 # set -x
 
-# WARNING: Make sure gradle can't pull any dependencies from mavenLocal (~/.m2).
-# Either remove teh mavenLocal() source from the gradle files or delete the
-# ~/.m2 directory.
+# This script generates Flatpak sources for a gradle project.
 
-# Modify if needed
+# It works by running the gradle build (--dry-run is usually enough) with
+# a separate, new gradle user home (instead of ~/.gradle). All needed
+# dependencies will be cached in this gradle user home. The script then moves
+# all these cached artifacts into a directory structure of a maven repo.
+# It also computes the hashes and checks the repos for where this artifact is
+# available to generate the url.
+# Finally, it writes the json file which can be used in the flatpak build
+# manifest.
+
+# You may want to modify these variables
+# Where the sources json file should be generated:
 SOURCES_FILE="../gradle-sources.json"
+# The target to generate the dependencies for:
 TARGET="desktop:dist"
+# The maven repos:
 REPO_BASEURL=(
 	'https://repo1.maven.org/maven2/'
 	'https://jitpack.io/'
 	'https://plugins.gradle.org/m2/'
 )
+# Manually specify dependencies that aren't getting cached for some reason:
 MANUAL_ARTIFACTS=(
 	'com/github/Anuken/Arc/backend-headless/916c5a77/backend-headless-916c5a77.pom'
 	'com/github/Anuken/Arc/backend-headless/916c5a77/backend-headless-916c5a77.jar'
 )
 
+
+# These directories should be empty and will get `rm -r`d afterwards.
 gradle_user_home="$(mktemp -d)"
 maven_repo="$(mktemp -d)"
+
 wd="$(pwd)"
 
 # Let gradle fetch all the dependencies into a new clean gradle user home:
@@ -29,7 +43,6 @@ echo "Downloading all dependencies..."
 ./gradlew -g "$gradle_user_home" "$TARGET" --no-daemon -q
 # --dry-run seems to miss some dependendencies
 # ./gradlew -g "$gradle_user_home" "$TARGET" --no-daemon --dry-run -q
-
 
 
 cd "$gradle_user_home/caches/modules-2/files-2.1" || exit 1
@@ -116,10 +129,11 @@ done
 # Remove last line in json file and relpace with closing braces without comma
 head -n -1 "$json_file" > temp.json && mv temp.json "$json_file"
 echo '	}' >> "$json_file"
-# And close the json
+# And close the json array
 echo ']' >> "$json_file"
 
 # Clean up maven repo too
 cd "$wd"
 rm -r "$maven_repo"
 
+echo 'Finished. Success is unknown until observed.'
