@@ -1,0 +1,45 @@
+name: Update the gradle dependencies
+on:
+  schedule:
+  - cron: "0 0 * * *" # every day
+  workflow_dispatch:
+
+jobs:
+  update-deps:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: beta
+
+      - name: Get mindustry source
+        run: |
+          sha=$(cat com.github.Anuken.Mindustry.yml | grep commit: | sed -E 's/.*commit: (.*)$/\1/')
+          curl -L "https://github.com/Anuken/Mindustry/archive/$sha.zip" > mindustry.zip
+          unzip mindustry.zip
+
+      - name: 'Generate gradle-sources.json'
+        run: |
+          ls -la *
+          cd mindustry/
+          ../gendeps.sh
+
+
+      - name: Commit and create PR
+        uses: peter-evans/create-pull-request@v4.0.1
+        env:
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
+          EMAIL: github-actions[bot]@users.noreply.github.com
+        with:
+          token: ${{ secrets.PAT }}
+          add-paths: 'gradle-sources.json'
+          commit-message: '[bot] Update dependencies'
+          committer: 'GHA Update Deps Bot <noreply@github.com>'
+          delete-branch: true
+          title: '[bot] Update gradle dependencies'
+
