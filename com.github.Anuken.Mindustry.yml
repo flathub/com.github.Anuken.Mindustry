@@ -1,9 +1,9 @@
 app-id: com.github.Anuken.Mindustry
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '20.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk17
+  - org.freedesktop.Sdk.Extension.openjdk11
 
 command: mindustry.sh
 finish-args:
@@ -18,58 +18,43 @@ finish-args:
 
 build-options:
   env:
-    JAVA_HOME: /usr/lib/sdk/openjdk17/
+    JAVA_HOME: /usr/lib/sdk/openjdk11/
 modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk17/install.sh
+      - /usr/lib/sdk/openjdk11/install.sh
 
-  - name: mindustry
+
+  # We don't have a gradle generator just yet, so we don't build from source
+  - name: mindustry-binary
     buildsystem: simple
-    sources:
-      # Main repo
-      - type: git
-        url: 'https://github.com/Anuken/Mindustry'
-        tag: 'v135'
-        commit: c24c5c6196cd89bdc17a079a2a8acd372cc260d9
-        x-checker-data:
-          type: git
-          tag-pattern: '^v([0-9.]+)$'
-      # Use externally downloaded gradle wrapper
-      - type: patch
-        path: local-gradle-wrapper.patch
-      - type: file
-        url: 'https://services.gradle.org/distributions/gradle-7.3-bin.zip'
-        sha256: de8f52ad49bdc759164f72439a3bf56ddb1589c4cde802d3cec7d6ad0e0ee410
-        dest: 'gradle/wrapper/'
-      # Use externally downloaded dependencies
-      - type: patch
-        path: local-maven-repo.patch
-      - gradle-sources.json
-      # Build script
-      - type: script
-        commands:
-          - 'set -xe'
-          - 'version=$(git describe --tags | sed -E "s/^v([0-9.]+)$/\1/")'
-          - './gradlew desktop:dist --no-daemon -Pbuildversion=$version'
-        dest-filename: build.sh
     build-commands:
-      - 'bash build.sh'
-      - 'install -D desktop/build/libs/Mindustry.jar /app/bin/Mindustry.jar'
-      - 'install -D android/ic_launcher-web.png /app/share/icons/hicolor/512x512/apps/com.github.Anuken.Mindustry.png'
+      - install -D Mindustry.jar /app/bin/Mindustry.jar
+      - install -D mindustry.sh /app/bin/mindustry.sh
+      - install -D com.github.Anuken.Mindustry.desktop /app/share/applications/com.github.Anuken.Mindustry.desktop
+      - install -D com.github.Anuken.Mindustry.metainfo.xml /app/share/metainfo/com.github.Anuken.Mindustry.metainfo.xml
+      - install -D com.github.Anuken.Mindustry.png /app/share/icons/hicolor/512x512/apps/com.github.Anuken.Mindustry.png
 
-  - name: misc
-    buildsystem: simple
     sources:
+      - type: file
+        url: https://f-droid.org/repo/io.anuke.mindustry/en-US/icon_Eno3XvqCZUcHRm3eMjiUleAxgzLopPe6-hkI7BHx1lU=.png
+        dest-filename: com.github.Anuken.Mindustry.png
+        sha256: 127a375efa82654707466dde32389495e0318332e8a4f7bafa1908ec11f1d655
+
       - type: file
         path: com.github.Anuken.Mindustry.metainfo.xml
+
       - type: file
         path: com.github.Anuken.Mindustry.desktop
+
       - type: file
         path: mindustry.sh
 
-    build-commands:
-      - 'install -D mindustry.sh /app/bin/mindustry.sh'
-      - 'install -D com.github.Anuken.Mindustry.desktop /app/share/applications/com.github.Anuken.Mindustry.desktop'
-      - 'install -D com.github.Anuken.Mindustry.metainfo.xml /app/share/metainfo/com.github.Anuken.Mindustry.metainfo.xml'
+      - type: file
+        url: https://github.com/Anuken/Mindustry/releases/download/v135/Mindustry.jar
+        sha256: 62b3c1f99b4a86e81482e4c8148af44eaabe3b031b3315649414b208ad296ff0
+        x-checker-data:
+          type: anitya
+          project-id: 147357
+          url-template: https://github.com/Anuken/Mindustry/releases/download/v$version/Mindustry.jar
