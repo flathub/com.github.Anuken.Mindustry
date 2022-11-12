@@ -55,6 +55,5 @@ modules:
         url: https://github.com/Anuken/Mindustry/releases/download/v140.3/Mindustry.jar
         sha256: a03cfd2fad5097d1bdeea3da00c5ec0f105d9e0c7352550036203332d4063543
         x-checker-data:
-          type: anitya
-          project-id: 147357
-          url-template: https://github.com/Anuken/Mindustry/releases/download/v$version/Mindustry.jar
+          type: git
+          tag-pattern: "^v([\\d.]+)$"
