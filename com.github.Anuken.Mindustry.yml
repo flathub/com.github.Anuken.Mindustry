@@ -1,9 +1,9 @@
 app-id: com.github.Anuken.Mindustry
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk11
+  - org.freedesktop.Sdk.Extension.openjdk17
 
 command: mindustry.sh
 finish-args:
@@ -18,12 +18,12 @@ finish-args:
 
 build-options:
   env:
-    JAVA_HOME: /usr/lib/sdk/openjdk11/
+    JAVA_HOME: /usr/lib/sdk/openjdk17/
 modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk11/install.sh
+      - /usr/lib/sdk/openjdk17/install.sh
 
 
   # We don't have a gradle generator just yet, so we don't build from source
@@ -52,8 +52,8 @@ modules:
         path: mindustry.sh
 
       - type: file
-        url: https://github.com/Anuken/Mindustry/releases/download/v126.2/Mindustry.jar
-        sha256: 6e56f142cd3baff99a24fb0b6aa3e14a2549d2e71234fcd830b78170d5ee8d7c
+        url: https://github.com/Anuken/Mindustry/releases/download/v140.3/Mindustry.jar
+        sha256: a03cfd2fad5097d1bdeea3da00c5ec0f105d9e0c7352550036203332d4063543
         x-checker-data:
           type: git
           tag-pattern: "^v([\\d.]+)$"
