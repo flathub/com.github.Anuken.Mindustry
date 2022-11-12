@@ -16,17 +16,17 @@
   </p>
  </description>
  <screenshots>
-  <screenshot type="default">
-    <image>https://mindustrygame.github.io/images/1.png</image>
-    <caption>Defend your base from waves of powerful enemies</caption>
+  <screenshot>
+    <image>https://img.itch.zone/aW1hZ2UvMTQwMTY5LzQ3MDY4OTgucG5n/original/Vmw%2FI2.png</image>
   </screenshot>
-  <screenshot type="default">
-    <image>https://mindustrygame.github.io/images/2.png</image>
-    <caption>Build complex designs for processing materials</caption>
+  <screenshot>
+    <image>https://img.itch.zone/aW1hZ2UvMTQwMTY5LzEwNDk3NDI4LnBuZw==/original/vjUM3c.png</image>
   </screenshot>
-  <screenshot type="default">
-    <image>https://mindustrygame.github.io/images/3.png</image>
-    <caption>Build and fight with other players on multiplayer servers</caption>
+  <screenshot>
+    <image>https://img.itch.zone/aW1hZ2UvMTQwMTY5LzQ3MDY4OTcucG5n/original/x%2FYsXu.png</image>
+  </screenshot>
+  <screenshot>
+    <image>https://img.itch.zone/aW1hZ2UvMTQwMTY5LzEwNDk3NDMyLnBuZw==/original/%2FXV3TG.png</image>
   </screenshot>
  </screenshots>
  <url type="homepage">https://mindustrygame.github.io/</url>
@@ -35,6 +35,7 @@
  <url type="contact">https://discord.gg/mindustry</url>
  <update_contact>tobiasmue@gnome.org</update_contact>
  <releases>
+   <release version="140.3" date="2022-11-11"/>
    <release version="137" date="2022-08-04"/>
    <release version="136.1" date="2022-07-19"/>
    <release version="131" date="2021-09-12"/>
