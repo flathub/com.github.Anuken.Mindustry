@@ -35,6 +35,7 @@
  <url type="contact">https://discord.gg/mindustry</url>
  <update_contact>tobiasmue@gnome.org</update_contact>
  <releases>
+   <release version="141.3" date="2023-01-22"/>
    <release version="141.2" date="2023-01-13"/>
    <release version="141.1" date="2023-01-12"/>
    <release version="140.4" date="2022-11-13"/>
