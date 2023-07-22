@@ -7,6 +7,7 @@ sdk-extensions:
 
 command: mindustry.sh
 finish-args:
+  - --socket=wayland
   - --socket=fallback-x11
   - --socket=pulseaudio
   - --device=dri
@@ -20,6 +21,8 @@ build-options:
   env:
     JAVA_HOME: /usr/lib/sdk/openjdk17/
 modules:
+  - shared-modules/SDL2/SDL2-with-libdecor.json
+
   - name: openjdk
     buildsystem: simple
     build-commands:
