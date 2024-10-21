@@ -72,7 +72,7 @@
    <release version="125" date="2021-02-16"/>
    <release version="124.1" date="2021-02-08"/>
    <release version="124" date="2021-02-07"/>
-   <release version="v123.1" date="2021-01-21">
+   <release version="123.1" date="2021-01-21">
      <description>
        <ul>
          <li>Fixed negative numbers not displaying properly in power nodes</li>
@@ -83,7 +83,7 @@
        </ul>
      </description>
    </release>
-   <release version="v123" date="2021-01-20">
+   <release version="123" date="2021-01-20">
      <description>
        <ul>
          <li>Fixed same-line logic comments not parsing</li>
@@ -125,7 +125,7 @@
        </ul>
      </description>
    </release>
-   <release version="v122.1" date="2020-12-29">
+   <release version="122.1" date="2020-12-29">
      <description>
        <ul>
          <li>Various minor bugfixes</li>
@@ -136,7 +136,7 @@
        </ul>
      </description>
    </release>
-   <release version="v122" date="2020-12-23">
+   <release version="122" date="2020-12-23">
      <description>
        <ul>
          <li>Fixed Quad AI</li>
@@ -158,7 +158,7 @@
        </ul>
      </description>
    </release>
-   <release version="v121.4" date="2020-12-15">
+   <release version="121.4" date="2020-12-15">
      <description>
        <ul>
          <li>Fixed flying unit AI</li>
@@ -166,7 +166,7 @@
        </ul>
      </description>
    </release>
-   <release version="v121.3" date="2020-12-14">
+   <release version="121.3" date="2020-12-14">
      <description>
        <ul>
          <li>Decreased junction item capacity - this may cause slight desync on servers running previous 121 versions, servers are advised to update</li>
@@ -174,7 +174,7 @@
        </ul>
      </description>
    </release>
-   <release version="v121.1" date="2020-12-09">
+   <release version="121.1" date="2020-12-09">
      <description>
        <ul>
          <li>Slightly increased Lancer build cost</li>
@@ -188,7 +188,7 @@
        </ul>
      </description>
    </release>
-   <release version="v121" date="2020-12-06">
+   <release version="121" date="2020-12-06">
      <description>
        <ul>
          <li>Fixed rebuilding a core near vault causing resources to drop to 1K</li>
