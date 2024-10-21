@@ -6,7 +6,9 @@
  <project_license>GPL-3.0</project_license>
  <name>Mindustry</name>
  <summary>Mindustry: A sandbox tower-defense game</summary>
- <developer_name>Anuken et al.</developer_name>
+ <developer id="com.github.anuken">
+  <name>Anuken et al.</name>
+ </developer>
  <description>
   <p> Create elaborate supply chains of conveyor belts to feed ammo into 
     your turrets, produce materials to use for building, and defend your 
@@ -17,7 +19,7 @@
  </description>
  <launchable type="desktop-id">com.github.Anuken.Mindustry.desktop</launchable>
  <screenshots>
-  <screenshot>
+  <screenshot type="default">
     <image>https://img.itch.zone/aW1hZ2UvMTQwMTY5LzQ3MDY4OTgucG5n/original/Vmw%2FI2.png</image>
   </screenshot>
   <screenshot>
