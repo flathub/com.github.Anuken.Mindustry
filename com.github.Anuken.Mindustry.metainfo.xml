@@ -15,6 +15,7 @@
     team-based PvP matches.
   </p>
  </description>
+ <launchable type="desktop-id">com.github.Anuken.Mindustry.desktop</launchable>
  <screenshots>
   <screenshot>
     <image>https://img.itch.zone/aW1hZ2UvMTQwMTY5LzQ3MDY4OTgucG5n/original/Vmw%2FI2.png</image>
