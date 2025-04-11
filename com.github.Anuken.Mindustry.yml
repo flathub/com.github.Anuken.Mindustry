@@ -53,8 +53,8 @@ modules:
         path: mindustry.sh
 
       - type: file
-        url: https://github.com/Anuken/Mindustry/releases/download/v146/Mindustry.jar
-        sha256: 3ab0e46c3cbdc863529ba05e804847ef00e3dbdb4567b5c27c5e6dce071b93f9
+        url: https://github.com/Anuken/Mindustry/releases/download/v147/Mindustry.jar
+        sha256: e9a52ceab7a4a20f253432eb4d8fec89e22c5daaa66d88d3ef5a15daa1682fa7
         x-checker-data:
           type: anitya
           project-id: 147357
