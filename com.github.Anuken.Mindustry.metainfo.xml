@@ -38,6 +38,14 @@
  <url type="contact">https://discord.gg/mindustry</url>
  <update_contact>tobiasmue@gnome.org</update_contact>
  <releases>
+   <release version="151.1" date="2025-08-25"/>
+   <release version="151" date="2025-08-24"/>
+   <release version="150.1" date="2025-07-25"/>
+   <release version="150" date="2025-07-23"/>
+   <release version="149" date="2025-04-30"/>
+   <release version="148" date="2025-04-21"/>
+   <release version="147.1" date="2025-04-13"/>
+   <release version="147" date="2025-04-10"/>
    <release version="146" date="2023-09-04"/>
    <release version="145.1" date="2023-06-19"/>
    <release version="145" date="2023-06-17"/>
