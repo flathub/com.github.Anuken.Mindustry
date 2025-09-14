@@ -1,9 +1,9 @@
 app-id: com.github.Anuken.Mindustry
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk17
+  - org.freedesktop.Sdk.Extension.openjdk21
 
 command: mindustry.sh
 finish-args:
@@ -19,12 +19,12 @@ finish-args:
 
 build-options:
   env:
-    JAVA_HOME: /usr/lib/sdk/openjdk17/
+    JAVA_HOME: /usr/lib/sdk/openjdk21/
 modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk17/install.sh
+      - /usr/lib/sdk/openjdk21/install.sh
 
 
   # We don't have a gradle generator just yet, so we don't build from source
