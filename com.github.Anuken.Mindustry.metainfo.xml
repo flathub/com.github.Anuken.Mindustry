@@ -6,7 +6,9 @@
  <project_license>GPL-3.0</project_license>
  <name>Mindustry</name>
  <summary>Mindustry: A sandbox tower-defense game</summary>
- <developer_name>Anuken et al.</developer_name>
+ <developer id="com.github.anuken">
+  <name>Anuken et al.</name>
+ </developer>
  <description>
   <p> Create elaborate supply chains of conveyor belts to feed ammo into 
     your turrets, produce materials to use for building, and defend your 
@@ -15,18 +17,19 @@
     team-based PvP matches.
   </p>
  </description>
+ <launchable type="desktop-id">com.github.Anuken.Mindustry.desktop</launchable>
  <screenshots>
   <screenshot type="default">
-    <image>https://mindustrygame.github.io/images/1.png</image>
-    <caption>Defend your base from waves of powerful enemies</caption>
+    <image>https://img.itch.zone/aW1hZ2UvMTQwMTY5LzQ3MDY4OTgucG5n/original/Vmw%2FI2.png</image>
   </screenshot>
-  <screenshot type="default">
-    <image>https://mindustrygame.github.io/images/2.png</image>
-    <caption>Build complex designs for processing materials</caption>
+  <screenshot>
+    <image>https://img.itch.zone/aW1hZ2UvMTQwMTY5LzEwNDk3NDI4LnBuZw==/original/vjUM3c.png</image>
   </screenshot>
-  <screenshot type="default">
-    <image>https://mindustrygame.github.io/images/3.png</image>
-    <caption>Build and fight with other players on multiplayer servers</caption>
+  <screenshot>
+    <image>https://img.itch.zone/aW1hZ2UvMTQwMTY5LzQ3MDY4OTcucG5n/original/x%2FYsXu.png</image>
+  </screenshot>
+  <screenshot>
+    <image>https://img.itch.zone/aW1hZ2UvMTQwMTY5LzEwNDk3NDMyLnBuZw==/original/%2FXV3TG.png</image>
   </screenshot>
  </screenshots>
  <url type="homepage">https://mindustrygame.github.io/</url>
@@ -35,6 +38,20 @@
  <url type="contact">https://discord.gg/mindustry</url>
  <update_contact>tobiasmue@gnome.org</update_contact>
  <releases>
+   <release version="146" date="2023-09-04"/>
+   <release version="145.1" date="2023-06-19"/>
+   <release version="145" date="2023-06-17"/>
+   <release version="144.3" date="2023-05-23"/>
+   <release version="144.2" date="2023-05-22"/>
+   <release version="144.1" date="2023-05-12"/>
+   <release version="143.1" date="2023-04-08"/>
+   <release version="143" date="2023-04-01"/>
+   <release version="142" date="2023-02-21"/>
+   <release version="141.3" date="2023-01-22"/>
+   <release version="141.2" date="2023-01-13"/>
+   <release version="141.1" date="2023-01-12"/>
+   <release version="140.4" date="2022-11-13"/>
+   <release version="140.3" date="2022-11-11"/>
    <release version="137" date="2022-08-04"/>
    <release version="136.1" date="2022-07-19"/>
    <release version="131" date="2021-09-12"/>
@@ -55,149 +72,133 @@
    <release version="125" date="2021-02-16"/>
    <release version="124.1" date="2021-02-08"/>
    <release version="124" date="2021-02-07"/>
-   <release version="v123.1" date="2021-01-21">
+   <release version="123.1" date="2021-01-21">
      <description>
-       <p>
-         <ul>
-           <li>Fixed negative numbers not displaying properly in power nodes</li>
-           <li>Fixed mod minVersion parsing</li>
-           <li>Fixed mods disappearing after import [Android]</li>
-           <li>Disabled duplicate IP prevention system</li>
-           <li>Added mod browser sort order button</li>
-         </ul>
-       </p>
+       <ul>
+         <li>Fixed negative numbers not displaying properly in power nodes</li>
+         <li>Fixed mod minVersion parsing</li>
+         <li>Fixed mods disappearing after import [Android]</li>
+         <li>Disabled duplicate IP prevention system</li>
+         <li>Added mod browser sort order button</li>
+       </ul>
      </description>
    </release>
-   <release version="v123" date="2021-01-20">
+   <release version="123" date="2021-01-20">
      <description>
-       <p>
-         <ul>
-           <li>Fixed same-line logic comments not parsing</li>
-           <li>Fixed Kamikaze achievement not triggering with flying units [Steam]</li>
-           <li>Fixed mass driver rotating before payload is received</li>
-           <li>Fixed bullets dealing splash damage twice upon collision - splash damage of certain bullets has been increased to compensate</li>
-           <li>Fixed floating point errors in core database leading to incorrect rounding</li>
-           <li>Fixed unit payloads snapping rotations when entering reconstructors</li>
-           <li>Fixed builder AI placing drills on incorrect/mixed resources and clogging crafters</li>
-           <li>Fixed editor mirror filter being offset in certain situations</li>
-           <li>Fixed music randomly cutting off after quit to main menu</li>
-           <li>Campaign: Made invasion chance scale with nearby enemy base count</li>
-           <li>Campaign: Added 20-minute invasion grace period after sector capture</li>
-           <li>Made impact reactor warmup time scale with boost (@Quezler)</li>
-           <li>Made players prioritize highest tier core when respawning</li>
-           <li>Made logic programs reset all state on edits</li>
-           <li>Made logic blocks no longer change 'last accessed' names when no edits are made</li>
-           <li>Made naval paths preload on maps with spawn points on liquids</li>
-           <li>Made Plastanium sprite slightly more distinct</li>
-           <li>Made ground units avoid walking in slag/deep water even when it is the only valid path</li>
-           <li>Made fire disappear faster in rain</li>
-           <li>Made conveyor items render under most blocks</li>
-           <li>Made server prevent duplicate IP connections</li>
-           <li>Made crosses render on item/liquid sources and sorters in schematics</li>
-           <li>Made building disabled state save upon world reload</li>
-           <li>Made status indicators smaller for 1x1 blocks</li>
-           <li>Made mod browser list mods by last update time</li>
-           <li>Implemented automatic mod list updates (currently, every 4 hours)</li>
-           <li>Improved unit selection visuals (@Voz-Duh)</li>
-           <li>Improved power status information (@Slava0135)</li>
-           <li>Added boost % bar too overdrive projectors (@Quezler)</li>
-           <li>Added IPv6 address support to join dialog (@markozajc)</li>
-           <li>Added core item incineration rule (@Quezler)</li>
-           <li>Added carried payloads to unit status bars and info (Partially implemented by @Slava0135)</li>
-           <li>Added slight shine effect, triggering upon building rotation</li>
-           <li>Removed overflow gate inventory</li>
-           <li>Increased power source output</li>
-           <li>Many other minor bugfixes and tweaks</li>
-         </ul>
-       </p>
+       <ul>
+         <li>Fixed same-line logic comments not parsing</li>
+         <li>Fixed Kamikaze achievement not triggering with flying units [Steam]</li>
+         <li>Fixed mass driver rotating before payload is received</li>
+         <li>Fixed bullets dealing splash damage twice upon collision - splash damage of certain bullets has been increased to compensate</li>
+         <li>Fixed floating point errors in core database leading to incorrect rounding</li>
+         <li>Fixed unit payloads snapping rotations when entering reconstructors</li>
+         <li>Fixed builder AI placing drills on incorrect/mixed resources and clogging crafters</li>
+         <li>Fixed editor mirror filter being offset in certain situations</li>
+         <li>Fixed music randomly cutting off after quit to main menu</li>
+         <li>Campaign: Made invasion chance scale with nearby enemy base count</li>
+         <li>Campaign: Added 20-minute invasion grace period after sector capture</li>
+         <li>Made impact reactor warmup time scale with boost (@Quezler)</li>
+         <li>Made players prioritize highest tier core when respawning</li>
+         <li>Made logic programs reset all state on edits</li>
+         <li>Made logic blocks no longer change 'last accessed' names when no edits are made</li>
+         <li>Made naval paths preload on maps with spawn points on liquids</li>
+         <li>Made Plastanium sprite slightly more distinct</li>
+         <li>Made ground units avoid walking in slag/deep water even when it is the only valid path</li>
+         <li>Made fire disappear faster in rain</li>
+         <li>Made conveyor items render under most blocks</li>
+         <li>Made server prevent duplicate IP connections</li>
+         <li>Made crosses render on item/liquid sources and sorters in schematics</li>
+         <li>Made building disabled state save upon world reload</li>
+         <li>Made status indicators smaller for 1x1 blocks</li>
+         <li>Made mod browser list mods by last update time</li>
+         <li>Implemented automatic mod list updates (currently, every 4 hours)</li>
+         <li>Improved unit selection visuals (@Voz-Duh)</li>
+         <li>Improved power status information (@Slava0135)</li>
+         <li>Added boost % bar too overdrive projectors (@Quezler)</li>
+         <li>Added IPv6 address support to join dialog (@markozajc)</li>
+         <li>Added core item incineration rule (@Quezler)</li>
+         <li>Added carried payloads to unit status bars and info (Partially implemented by @Slava0135)</li>
+         <li>Added slight shine effect, triggering upon building rotation</li>
+         <li>Removed overflow gate inventory</li>
+         <li>Increased power source output</li>
+         <li>Many other minor bugfixes and tweaks</li>
+       </ul>
      </description>
    </release>
-   <release version="v122.1" date="2020-12-29">
+   <release version="122.1" date="2020-12-29">
      <description>
-       <p>
-         <ul>
-           <li>Various minor bugfixes</li>
-           <li>Increased power source output again</li>
-           <li>Improved building beam visuals</li>
-           <li>Improved performance of maps with many adjacent power nodes/batteries</li>
-           <li>Disabled weather in editor</li>
-         </ul>
-       </p>
+       <ul>
+         <li>Various minor bugfixes</li>
+         <li>Increased power source output again</li>
+         <li>Improved building beam visuals</li>
+         <li>Improved performance of maps with many adjacent power nodes/batteries</li>
+         <li>Disabled weather in editor</li>
+       </ul>
      </description>
    </release>
-   <release version="v122" date="2020-12-23">
+   <release version="122" date="2020-12-23">
      <description>
-       <p>
-         <ul>
-           <li>Fixed Quad AI</li>
-           <li>Fixed crash in conveyor upgrade pathing</li>
-           <li>Fixed other various crashes</li>
-           <li>Made payload pickups prioritize units in blocks instead of the blocks themselves</li>
-           <li>Increased foreshadow coolant effectiveness, but slightly decreased rotation speed</li>
-           <li>Improved space skybox scaling</li>
-           <li>Added building damage stats to bullets</li>
-           <li>Added WIP mod browser for GitHub mods</li>
-           <li>Added preview of currently queued block for other units in certain situations</li>
-           <li>Added automatic bridge spacing when using lines</li>
-           <li>Added bridge link preview</li>
-           <li>Added rule for persistent ("always") weather</li>
-           <li>Better scrap wall textures and rotate-able thruster (Contributed by @Voz-Duh)</li>
-           <li>Made Plastanium conveyor unloadable</li>
-           <li>Made building pause status sync in multiplayer</li>
-           <li>Slight pulsar damage nerf</li>
-         </ul>
-       </p>
+       <ul>
+         <li>Fixed Quad AI</li>
+         <li>Fixed crash in conveyor upgrade pathing</li>
+         <li>Fixed other various crashes</li>
+         <li>Made payload pickups prioritize units in blocks instead of the blocks themselves</li>
+         <li>Increased foreshadow coolant effectiveness, but slightly decreased rotation speed</li>
+         <li>Improved space skybox scaling</li>
+         <li>Added building damage stats to bullets</li>
+         <li>Added WIP mod browser for GitHub mods</li>
+         <li>Added preview of currently queued block for other units in certain situations</li>
+         <li>Added automatic bridge spacing when using lines</li>
+         <li>Added bridge link preview</li>
+         <li>Added rule for persistent ("always") weather</li>
+         <li>Better scrap wall textures and rotate-able thruster (Contributed by @Voz-Duh)</li>
+         <li>Made Plastanium conveyor unloadable</li>
+         <li>Made building pause status sync in multiplayer</li>
+         <li>Slight pulsar damage nerf</li>
+       </ul>
      </description>
    </release>
-   <release version="v121.4" date="2020-12-15">
+   <release version="121.4" date="2020-12-15">
      <description>
-       <p>
-         <ul>
-           <li>Fixed flying unit AI</li>
-           <li>Made conduits/conveyors upgrades follow paths (Contributed by @Slava0135)</li>
-         </ul>
-       </p>
+       <ul>
+         <li>Fixed flying unit AI</li>
+         <li>Made conduits/conveyors upgrades follow paths (Contributed by @Slava0135)</li>
+       </ul>
      </description>
    </release>
-   <release version="v121.3" date="2020-12-14">
+   <release version="121.3" date="2020-12-14">
      <description>
-       <p>
-         <ul>
-           <li>Decreased junction item capacity - this may cause slight desync on servers running previous 121 versions, servers are advised to update</li>
-           <li>Many various small bugfixes</li>
-         </ul>
-       </p>
+       <ul>
+         <li>Decreased junction item capacity - this may cause slight desync on servers running previous 121 versions, servers are advised to update</li>
+         <li>Many various small bugfixes</li>
+       </ul>
      </description>
    </release>
-   <release version="v121.1" date="2020-12-09">
+   <release version="121.1" date="2020-12-09">
      <description>
-       <p>
-         <ul>
-           <li>Slightly increased Lancer build cost</li>
-           <li>Double-tapping now enters a campaign map (Contributed by @joshuaptfan)</li>
-           <li>Minor logic memory optimizations - block/sensor constants are no longer stored in every processor</li>
-           <li>Doubled surge smelter item capacity</li>
-           <li>Made Fungal Pass slightly easier</li>
-           <li>Fixed some achievements not working [Steam]</li>
-           <li>Fixed some rare crashes</li>
-           <li>Fixed unit spawn shockwave appearing too late</li>
-         </ul>
-       </p>
+       <ul>
+         <li>Slightly increased Lancer build cost</li>
+         <li>Double-tapping now enters a campaign map (Contributed by @joshuaptfan)</li>
+         <li>Minor logic memory optimizations - block/sensor constants are no longer stored in every processor</li>
+         <li>Doubled surge smelter item capacity</li>
+         <li>Made Fungal Pass slightly easier</li>
+         <li>Fixed some achievements not working [Steam]</li>
+         <li>Fixed some rare crashes</li>
+         <li>Fixed unit spawn shockwave appearing too late</li>
+       </ul>
      </description>
    </release>
-   <release version="v121" date="2020-12-06">
+   <release version="121" date="2020-12-06">
      <description>
-       <p>
-         <ul>
-           <li>Fixed rebuilding a core near vault causing resources to drop to 1K</li>
-           <li>Fixed captured sectors getting locked</li>
-           <li>New host research is now carried over to clients</li>
-           <li>Clients can now use their research even if the host doesn't have it</li>
-           <li>Clients can now research new tech in multiplayer</li>
-           <li>Clients will now receive a copy of resources produced in the current sector, distributed across their sectors</li>
-           <li>Added a hint that explains this information</li>
-         </ul>
-       </p>
+       <ul>
+         <li>Fixed rebuilding a core near vault causing resources to drop to 1K</li>
+         <li>Fixed captured sectors getting locked</li>
+         <li>New host research is now carried over to clients</li>
+         <li>Clients can now use their research even if the host doesn't have it</li>
+         <li>Clients can now research new tech in multiplayer</li>
+         <li>Clients will now receive a copy of resources produced in the current sector, distributed across their sectors</li>
+         <li>Added a hint that explains this information</li>
+       </ul>
      </description>
    </release>
  </releases>

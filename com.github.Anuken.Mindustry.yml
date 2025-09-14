@@ -1,13 +1,14 @@
 app-id: com.github.Anuken.Mindustry
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk11
+  - org.freedesktop.Sdk.Extension.openjdk21
 
 command: mindustry.sh
 finish-args:
-  - --socket=fallback-x11
+  - --socket=x11
+  - --share=ipc
   - --socket=pulseaudio
   - --device=dri
   - --env=PATH=/usr/bin:/app/bin:/app/jre/bin
@@ -18,12 +19,12 @@ finish-args:
 
 build-options:
   env:
-    JAVA_HOME: /usr/lib/sdk/openjdk11/
+    JAVA_HOME: /usr/lib/sdk/openjdk21/
 modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk11/install.sh
+      - /usr/lib/sdk/openjdk21/install.sh
 
 
   # We don't have a gradle generator just yet, so we don't build from source
@@ -52,8 +53,8 @@ modules:
         path: mindustry.sh
 
       - type: file
-        url: https://github.com/Anuken/Mindustry/releases/download/v137/Mindustry.jar
-        sha256: 2eefb439534c91b6ad73630620dd789a55817a36b15aab6c55525c108b6f6d75
+        url: https://github.com/Anuken/Mindustry/releases/download/v146/Mindustry.jar
+        sha256: 3ab0e46c3cbdc863529ba05e804847ef00e3dbdb4567b5c27c5e6dce071b93f9
         x-checker-data:
           type: anitya
           project-id: 147357
