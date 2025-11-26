@@ -18,6 +18,8 @@ finish-args:
   - --filesystem=xdg-run/app/com.discordapp.DiscordCanary:create
 
 build-options:
+  build-args:
+    - --share=network
   env:
     JAVA_HOME: /usr/lib/sdk/openjdk21/
 modules:
@@ -26,16 +28,31 @@ modules:
     build-commands:
       - /usr/lib/sdk/openjdk21/install.sh
 
-
   # We don't have a gradle generator just yet, so we don't build from source
   - name: mindustry-binary
     buildsystem: simple
     build-commands:
-      - install -D Mindustry.jar /app/bin/Mindustry.jar
-      - install -D mindustry.sh /app/bin/mindustry.sh
-      - install -D com.github.Anuken.Mindustry.desktop /app/share/applications/com.github.Anuken.Mindustry.desktop
-      - install -D com.github.Anuken.Mindustry.metainfo.xml /app/share/metainfo/com.github.Anuken.Mindustry.metainfo.xml
-      - install -D com.github.Anuken.Mindustry.png /app/share/icons/hicolor/512x512/apps/com.github.Anuken.Mindustry.png
+      - |
+        set -eux
+
+        TAG=$(curl -s https://api.github.com/repos/Anuken/MindustryBuilds/releases/latest \
+          | grep '"tag_name":' \
+          | sed -E 's/.*"([^"]+)".*/\1/')
+
+        cat <<-NOTICE
+        ============================================================
+        building mindustry flatpak - using latest release: $TAG
+        download url: https://github.com/Anuken/MindustryBuilds/releases/download/$TAG/Mindustry-BE-Desktop-$TAG.jar
+        ============================================================
+        NOTICE
+
+        curl -L --fail --retry 3 --retry-delay 5 -o /tmp/Mindustry-BE-Desktop-$TAG.jar "https://github.com/Anuken/MindustryBuilds/releases/download/$TAG/Mindustry-BE-Desktop-$TAG.jar"
+        install -D /tmp/Mindustry-BE-Desktop-$TAG.jar /app/bin/Mindustry.jar
+        install -D mindustry.sh /app/bin/mindustry.sh
+        chmod +x /app/bin/mindustry.sh
+        install -D com.github.Anuken.Mindustry.desktop /app/share/applications/com.github.Anuken.Mindustry.desktop
+        install -D com.github.Anuken.Mindustry.metainfo.xml /app/share/metainfo/com.github.Anuken.Mindustry.metainfo.xml
+        install -D com.github.Anuken.Mindustry.png /app/share/icons/hicolor/512x512/apps/com.github.Anuken.Mindustry.png
 
     sources:
       - type: file
@@ -51,11 +68,3 @@ modules:
 
       - type: file
         path: mindustry.sh
-
-      - type: file
-        url: https://github.com/Anuken/Mindustry/releases/download/v146/Mindustry.jar
-        sha256: 3ab0e46c3cbdc863529ba05e804847ef00e3dbdb4567b5c27c5e6dce071b93f9
-        x-checker-data:
-          type: anitya
-          project-id: 147357
-          url-template: https://github.com/Anuken/Mindustry/releases/download/v$version/Mindustry.jar
