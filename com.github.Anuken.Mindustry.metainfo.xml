@@ -208,4 +208,9 @@
     <content_attribute id="violence-realistic">mild</content_attribute>
     <content_attribute id="social-chat">intense</content_attribute>
  </content_rating>
+ <keywords>
+  <keyword>tower defense</keyword>
+  <keyword>sandbox game</keyword>
+  <keyword>co-op multiplayer</keyword>
+ </keywords>
 </component>
