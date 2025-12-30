@@ -6,8 +6,10 @@
  <project_license>GPL-3.0</project_license>
  <name>Mindustry</name>
  <summary>Mindustry: A sandbox tower-defense game</summary>
+ <summary xml:lang="ca">Mindustry: Un joc de món lliure i de defensa de torres</summary>
  <developer id="com.github.anuken">
   <name>Anuken et al.</name>
+  <name xml:lang="ca">Anuken i altres</developer_name>
  </developer>
  <description>
   <p> Create elaborate supply chains of conveyor belts to feed ammo into 
@@ -15,6 +17,12 @@
     structures from waves of enemies. Play with your friends in 
     cross-platform multiplayer co-op games, or challenge them in 
     team-based PvP matches.
+  </p>
+  <p xml:lang="ca"> Creeu cadenes de subministraments amb cintes
+    transportadores. Porteu munició a les torretes, produïu materials de
+    construcció i defenseu les estructures de les onades d'enemics. Jugueu
+    amb amics en partides cooperatives multijugador o enfronteu-vos-hi
+    en partides jugador contra jugador.
   </p>
  </description>
  <launchable type="desktop-id">com.github.Anuken.Mindustry.desktop</launchable>
