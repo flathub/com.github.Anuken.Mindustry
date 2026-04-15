@@ -10,10 +10,10 @@
   <name>Anuken et al.</name>
  </developer>
  <description>
-  <p> Create elaborate supply chains of conveyor belts to feed ammo into 
-    your turrets, produce materials to use for building, and defend your 
-    structures from waves of enemies. Play with your friends in 
-    cross-platform multiplayer co-op games, or challenge them in 
+  <p>Create elaborate supply chains of conveyor belts to feed ammo into
+    your turrets, produce materials to use for building, and defend your
+    structures from waves of enemies. Play with your friends in
+    cross-platform multiplayer co-op games, or challenge them in
     team-based PvP matches.
   </p>
  </description>
@@ -38,6 +38,7 @@
  <url type="contact">https://discord.gg/mindustry</url>
  <update_contact>tobiasmue@gnome.org</update_contact>
  <releases>
+   <release version="v157.1" date="2026-04-14"/>
    <release version="157" date="2026-04-09"/>
    <release version="146" date="2023-09-04"/>
    <release version="145.1" date="2023-06-19"/>
