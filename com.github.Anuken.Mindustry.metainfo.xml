@@ -40,42 +40,42 @@
  <releases>
    <release version="v157.2" date="2026-04-15"/>
    <release version="v157.1" date="2026-04-14"/>
-   <release version="157" date="2026-04-09"/>
-   <release version="146" date="2023-09-04"/>
-   <release version="145.1" date="2023-06-19"/>
-   <release version="145" date="2023-06-17"/>
-   <release version="144.3" date="2023-05-23"/>
-   <release version="144.2" date="2023-05-22"/>
-   <release version="144.1" date="2023-05-12"/>
-   <release version="143.1" date="2023-04-08"/>
-   <release version="143" date="2023-04-01"/>
-   <release version="142" date="2023-02-21"/>
-   <release version="141.3" date="2023-01-22"/>
-   <release version="141.2" date="2023-01-13"/>
-   <release version="141.1" date="2023-01-12"/>
-   <release version="140.4" date="2022-11-13"/>
-   <release version="140.3" date="2022-11-11"/>
-   <release version="137" date="2022-08-04"/>
-   <release version="136.1" date="2022-07-19"/>
-   <release version="131" date="2021-09-12"/>
-   <release version="130.1" date="2021-08-25"/>
-   <release version="130" date="2021-08-16"/>
-   <release version="129.2" date="2021-08-04"/>
-   <release version="129.1" date="2021-07-29"/>
-   <release version="129" date="2021-07-28"/>
-   <release version="128.1" date="2021-07-17"/>
-   <release version="128" date="2021-07-12"/>
-   <release version="127.2" date="2021-06-30"/>
-   <release version="127.1" date="2021-06-26"/>
-   <release version="127" date="2021-06-25"/>
-   <release version="126.2" date="2021-03-29"/>
-   <release version="126.1" date="2021-03-06"/>
-   <release version="126" date="2021-03-05"/>
-   <release version="125.1" date="2021-02-20"/>
-   <release version="125" date="2021-02-16"/>
-   <release version="124.1" date="2021-02-08"/>
-   <release version="124" date="2021-02-07"/>
-   <release version="123.1" date="2021-01-21">
+   <release version="v157" date="2026-04-09"/>
+   <release version="v146" date="2023-09-04"/>
+   <release version="v145.1" date="2023-06-19"/>
+   <release version="v145" date="2023-06-17"/>
+   <release version="v144.3" date="2023-05-23"/>
+   <release version="v144.2" date="2023-05-22"/>
+   <release version="v144.1" date="2023-05-12"/>
+   <release version="v143.1" date="2023-04-08"/>
+   <release version="v143" date="2023-04-01"/>
+   <release version="v142" date="2023-02-21"/>
+   <release version="v141.3" date="2023-01-22"/>
+   <release version="v141.2" date="2023-01-13"/>
+   <release version="v141.1" date="2023-01-12"/>
+   <release version="v140.4" date="2022-11-13"/>
+   <release version="v140.3" date="2022-11-11"/>
+   <release version="v137" date="2022-08-04"/>
+   <release version="v136.1" date="2022-07-19"/>
+   <release version="v131" date="2021-09-12"/>
+   <release version="v130.1" date="2021-08-25"/>
+   <release version="v130" date="2021-08-16"/>
+   <release version="v129.2" date="2021-08-04"/>
+   <release version="v129.1" date="2021-07-29"/>
+   <release version="v129" date="2021-07-28"/>
+   <release version="v128.1" date="2021-07-17"/>
+   <release version="v128" date="2021-07-12"/>
+   <release version="v127.2" date="2021-06-30"/>
+   <release version="v127.1" date="2021-06-26"/>
+   <release version="v127" date="2021-06-25"/>
+   <release version="v126.2" date="2021-03-29"/>
+   <release version="v126.1" date="2021-03-06"/>
+   <release version="v126" date="2021-03-05"/>
+   <release version="v125.1" date="2021-02-20"/>
+   <release version="v125" date="2021-02-16"/>
+   <release version="v124.1" date="2021-02-08"/>
+   <release version="v124" date="2021-02-07"/>
+   <release version="v123.1" date="2021-01-21">
      <description>
        <ul>
          <li>Fixed negative numbers not displaying properly in power nodes</li>
@@ -86,7 +86,7 @@
        </ul>
      </description>
    </release>
-   <release version="123" date="2021-01-20">
+   <release version="v123" date="2021-01-20">
      <description>
        <ul>
          <li>Fixed same-line logic comments not parsing</li>
@@ -128,7 +128,7 @@
        </ul>
      </description>
    </release>
-   <release version="122.1" date="2020-12-29">
+   <release version="v122.1" date="2020-12-29">
      <description>
        <ul>
          <li>Various minor bugfixes</li>
@@ -139,7 +139,7 @@
        </ul>
      </description>
    </release>
-   <release version="122" date="2020-12-23">
+   <release version="v122" date="2020-12-23">
      <description>
        <ul>
          <li>Fixed Quad AI</li>
@@ -161,7 +161,7 @@
        </ul>
      </description>
    </release>
-   <release version="121.4" date="2020-12-15">
+   <release version="v121.4" date="2020-12-15">
      <description>
        <ul>
          <li>Fixed flying unit AI</li>
@@ -169,7 +169,7 @@
        </ul>
      </description>
    </release>
-   <release version="121.3" date="2020-12-14">
+   <release version="v121.3" date="2020-12-14">
      <description>
        <ul>
          <li>Decreased junction item capacity - this may cause slight desync on servers running previous 121 versions, servers are advised to update</li>
@@ -177,7 +177,7 @@
        </ul>
      </description>
    </release>
-   <release version="121.1" date="2020-12-09">
+   <release version="v121.1" date="2020-12-09">
      <description>
        <ul>
          <li>Slightly increased Lancer build cost</li>
@@ -191,7 +191,7 @@
        </ul>
      </description>
    </release>
-   <release version="121" date="2020-12-06">
+   <release version="v121" date="2020-12-06">
      <description>
        <ul>
          <li>Fixed rebuilding a core near vault causing resources to drop to 1K</li>
