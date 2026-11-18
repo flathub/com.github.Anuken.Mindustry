@@ -38,8 +38,12 @@
  <url type="contact">https://discord.gg/mindustry</url>
  <update_contact>tobiasmue@gnome.org</update_contact>
  <releases>
-   <release version="v160.7" date="2026-10-08">
+   <release version="v160.8" date="2026-11-18">
+      <url type="details">https://github.com/Anuken/Mindustry/releases/tag/v160.8</url>
       <description></description>
+   </release>
+   <release version="v160.7" date="2026-10-08">
+      <description/>
    </release>
    <release version="v160.5" date="2026-09-20">
       <description/>
